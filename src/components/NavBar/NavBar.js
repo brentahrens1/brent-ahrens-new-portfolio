@@ -4,36 +4,34 @@ import '../../sass/_navbar.scss'
 import { Link } from 'react-router-dom'
 
 const NavBar = () => {
-    const [ scrollTop, setScrollTop ] = useState(window.scrollY)
     const [ visible, setVisible ] = useState(true)
-    const [ isContactOpen, setIsContactOpen ] = useState(false)
     const [ isOpen, setIsOpen ] = useState(false)
+
+    let scrollTop = window.scrollY
+    let contactOpen = false
 
     window.onresize = () => (window.innerWidth > 750 && isOpen) && setIsOpen(false)
 
     const handleScroll = () => {
         let currentScroll = window.scrollY
-        currentScroll > scrollTop ? setVisible(false) : setVisible(true)
-        
+        currentScroll > scrollTop ? setVisible(false) : setVisible(true)  
     }
 
+    window.addEventListener('scroll', handleScroll)
+
     const contactExpand = () => {
-        setIsContactOpen(true)
+        contactOpen = true
         let contact = document.querySelector(".nav__contact")
-        contact.innerHTML = `<p><a href="mailto:brentholmesahrens@gmail.com">brentholmesahrens@gmail.com</a></p>`
+        contact.innerHTML = '<p><a href="mailto:brentholmesahrens@gmail.com">brentholmesahrens@gmail.com</a></p>'
         contact.style.width = "310px"
     }
 
     const contactClose = () => {
-        setIsContactOpen(false)
+        contactOpen = false
         let contact = document.querySelector(".nav__contact")
-        contact.innerHTML = `<p>Contact</p>`
+        contact.innerHTML = '<p>Contact</p>'
         contact.style.width = "85px"
     }
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll)
-    }, [])
 
     return (
         <div className="nav">
@@ -46,7 +44,7 @@ const NavBar = () => {
                             <li className="nav__list-item"><a href="#">Github</a></li>
                         </ul>
                     </div>
-                    <div className={ visible ? "navbar__name" : "navbar__hidden" }>
+                    <div className={`navbar__name ${visible ? "navbar__visible" : "navbar__hidden"}`}>
                         <h1>Brent Ahrens</h1>
                     </div>
                 </div>

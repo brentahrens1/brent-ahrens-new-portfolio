@@ -11,6 +11,8 @@ $paragraph-size: 1.3rem;
     font-size: $paragraph-size;
 }
 
+// mobile
+
 .nav {
     position: fixed;
     top: 0;
@@ -58,7 +60,7 @@ $paragraph-size: 1.3rem;
         }
     }
 
-    &__name {
+    &__visible {
         width: 100%;
         background: #000;
         text-align: center;
@@ -133,6 +135,8 @@ $paragraph-size: 1.3rem;
     transition: all 300ms ease-in-out;
 }
 
+// Desktop
+
 @media (min-width: 750px) {
 
     .navbar {
@@ -148,12 +152,21 @@ $paragraph-size: 1.3rem;
             display: none;
         }
 
+        &__name {
+            transition: opacity 500ms ease-in-out;
+        }
+
+        &__visible {
+            opacity: 1;
+        }
+
         &__hidden {
-            top: -3rem;
+            opacity: 0;
 
             h1 {
                 display: none;
             }
+
         }
 
         &__list {
