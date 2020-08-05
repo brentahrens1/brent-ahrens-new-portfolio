@@ -1,8 +1,23 @@
+//variables
 $paragraph-size: 1.3rem;
+
+//mixins
+
+@mixin nav-info {
+    position: absolute;
+    padding: .4rem;
+    background: #000;
+    color: #fff;
+    font-size: $paragraph-size;
+}
 
 @media (min-width: 750px) {
     .nav {
-        position: relative;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 
     .navbar {
@@ -12,9 +27,23 @@ $paragraph-size: 1.3rem;
         width: 30rem;
         background: #000;
 
-        &__name {
+        &__under {
             position: absolute;
             top: 2rem;
+            width: 100%;
+            background: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__dropdown {
+            font-size: $paragraph-size;
+            padding: 0 1rem;
+            display: none;
+        }
+
+        &__name {
             width: 100%;
             background: #000;
             text-align: center;
@@ -37,16 +66,21 @@ $paragraph-size: 1.3rem;
     }
 
     .nav__contact {
-        position: absolute;
+        @include nav-info;
         top: 0;
         right: 12%;
-        padding: .4rem;
-        background: #000;
-        color: #fff;
-        font-size: $paragraph-size;
+        width: 85px;
+        text-align: center;
+        transition: all 300ms ease-in-out;
     }
 
-    .dropdown {
+    .nav__location {
+        @include nav-info;
+        bottom: 0;
+        left: 5%;
+    }
+
+    .hamburger {
         display: none;
     }
 }
