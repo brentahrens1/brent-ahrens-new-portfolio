@@ -52,6 +52,14 @@ $paragraph-size: 1.3rem;
             font-size: 1.6rem;
         }
 
+        &__hidden {
+            top: -3rem;
+
+            h1 {
+                display: none;
+            }
+        }
+
         &__list {
             height: 2rem;
             padding: 0 1rem;

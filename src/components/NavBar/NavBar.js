@@ -1,11 +1,23 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../../sass/_navbar.scss'
 
 import { Link } from 'react-router-dom'
 
 const NavBar = () => {
-
+    const [ scrollTop, setScrollTop ] = useState(window.scrollY)
+    const [ visible, setVisible ] = useState(true)
     const [ isContactOpen, setIsContactOpen ] = useState(false)
+
+    const handleScroll = () => {
+        let currentScroll = window.scrollY
+        if (currentScroll > scrollTop) {
+            setVisible(false)
+            console.log(scrollTop)
+        } else {
+            setVisible(true)
+            console.log(scrollTop)
+        }
+    }
 
     const contactExpand = () => {
         setIsContactOpen(true)
@@ -21,6 +33,10 @@ const NavBar = () => {
         contact.style.width = "85px"
     }
 
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+    }, [])
+
     return (
         <div className="nav">
             <div className="navbar">
@@ -30,7 +46,7 @@ const NavBar = () => {
                         <li><Link to="/">About</Link></li>
                         <li className="nav__list-item"><a href="#">Github</a></li>
                     </div>
-                    <div className="navbar__name">
+                    <div className={ visible ? "navbar__name" : "navbar__hidden" }>
                         <h1>Brent Ahrens</h1>
                     </div>
                 </div>
