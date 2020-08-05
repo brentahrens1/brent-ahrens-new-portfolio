@@ -9,17 +9,12 @@ const NavBar = () => {
     const [ isContactOpen, setIsContactOpen ] = useState(false)
     const [ isOpen, setIsOpen ] = useState(false)
 
-    window.onresize = () => (window.innerWidth > 900 && isOpen) && setIsOpen(false)
+    window.onresize = () => (window.innerWidth > 750 && isOpen) && setIsOpen(false)
 
     const handleScroll = () => {
         let currentScroll = window.scrollY
-        if (currentScroll > scrollTop) {
-            setVisible(false)
-            console.log(scrollTop)
-        } else {
-            setVisible(true)
-            console.log(scrollTop)
-        }
+        currentScroll > scrollTop ? setVisible(false) : setVisible(true)
+        
     }
 
     const contactExpand = () => {
@@ -48,8 +43,8 @@ const NavBar = () => {
                         <ul className="dropdown__list">
                             <li className="dropdown__list-item"><Link to="/">Index</Link></li>
                             <li className="dropdown__list-item"><Link to="/">About</Link></li>
+                            <li className="nav__list-item"><a href="#">Github</a></li>
                         </ul>
-                        <li className="nav__list-item"><a href="#">Github</a></li>
                     </div>
                     <div className={ visible ? "navbar__name" : "navbar__hidden" }>
                         <h1>Brent Ahrens</h1>

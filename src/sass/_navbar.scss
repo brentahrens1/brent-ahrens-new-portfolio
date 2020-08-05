@@ -101,7 +101,7 @@ $paragraph-size: 1.3rem;
             transition: all 1s ease-in-out;
         }
         .open > &:first-child {
-            top: .3rem;
+            top: .7rem;
             transform: rotate(135deg);
             transition: all .50s ease-in-out;
         }
@@ -111,7 +111,7 @@ $paragraph-size: 1.3rem;
             transition: all .50s ease-in-out;
         }
         .open > &:nth-child(3) {
-            top: .3rem;
+            top: .7rem;
             transform: rotate(-135deg);
             transition: all .50s ease-in-out;
         }
