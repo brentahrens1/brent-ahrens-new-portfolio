@@ -64,9 +64,6 @@ const NavBar = () => {
             <div className="nav__contact" onMouseEnter={contactExpand} onMouseLeave={contactClose}>
                 <p>Contact</p>
             </div>
-            <div className="nav__location">
-                <p>Developer, Los Angeles, CA</p>
-            </div>
         </div>
     )
 }
