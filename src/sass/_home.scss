@@ -1,0 +1,23 @@
+.project {
+    height: 100%;
+    width: 100%;
+    background: green;
+}
+
+.project__inner {
+    height: 95vh;
+    width: 100%;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.project__image {
+    height: 53vh;
+    width: 58vw;
+    background: pink;
+    margin: 1rem auto;
+}
