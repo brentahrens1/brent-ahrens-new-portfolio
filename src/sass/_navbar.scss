@@ -11,6 +11,12 @@ $paragraph-size: 1.3rem;
     font-size: $paragraph-size;
 }
 
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 // mobile
 
 .nav {
@@ -28,9 +34,7 @@ $paragraph-size: 1.3rem;
     color: #fff;
     width: 100%;
     height: 3rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include flex-row;
 
     &__under {
         position: absolute;
@@ -43,15 +47,17 @@ $paragraph-size: 1.3rem;
     }
 
     &__dropdown {
-        display: none;
         position: relative;
+        opacity: 0;
+        height: 0;
         top: -10rem;
         font-size: $paragraph-size;
         padding: 0 1rem;
-        transition: top 500ms ease-in-out;
+        transition: opacity 700ms ease-in-out;
 
         &.show {
-            display: block;
+            opacity: 1;
+            height: 100%;
             top: initial;
         }
 
@@ -60,13 +66,23 @@ $paragraph-size: 1.3rem;
         }
     }
 
-    &__visible {
+    &__name {
         width: 100%;
         background: #000;
         text-align: center;
         border-top: 3px solid #fff;
         color: #fff;
         font-size: 1.6rem;
+        transition: opacity 400ms ease-in-out;
+    }
+
+    &__visible {
+        opacity: 1;
+    }
+
+    &__hidden {
+        opacity: 0;
+        height: 0;
     }
 
     &__list {
@@ -78,9 +94,9 @@ $paragraph-size: 1.3rem;
     width: 45px;
     height: 28px;
     position: relative;
-    cursor: pointer;
     z-index: 999;
     margin: 1rem auto;
+    cursor: pointer;
 
     &__bar {
         position: absolute;
@@ -148,35 +164,12 @@ $paragraph-size: 1.3rem;
             top: 2rem;
         }
 
-        &__dropdown {
-            display: none;
-        }
-
-        &__name {
-            transition: opacity 500ms ease-in-out;
-        }
-
-        &__visible {
-            opacity: 1;
-        }
-
-        &__hidden {
-            opacity: 0;
-
-            h1 {
-                display: none;
-            }
-
-        }
-
         &__list {
             width: 100%;
             padding: 0 1rem;
             font-size: $paragraph-size;
-            display: flex;
-            flex-direction: row;
+            @include flex-row;
             justify-content: space-between;
-            align-items: center;
         }
     }
 
