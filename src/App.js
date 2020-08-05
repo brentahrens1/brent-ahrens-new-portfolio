@@ -1,10 +1,12 @@
-import React from 'react';
+import React from 'react'
 import './sass/_base.scss'
+
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
   return (
     <div className="App">
-      <h1>Brand new portfolio</h1>
+      <NavBar />
     </div>
   );
 }
