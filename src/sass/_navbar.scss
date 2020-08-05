@@ -1,3 +1,5 @@
+$paragraph-size: 1.3rem;
+
 @media (min-width: 750px) {
     .nav {
         position: relative;
@@ -15,16 +17,16 @@
             top: 2rem;
             width: 100%;
             background: #000;
-            font-size: 1.6rem;
             text-align: center;
             border-top: 3px solid #fff;
             color: #fff;
+            font-size: 1.6rem;
         }
 
         &__list {
             height: 2rem;
             padding: 0 1rem;
-            font-size: 1.3rem;
+            font-size: $paragraph-size;
             background: #000;
             color: #fff;
             display: flex;
@@ -32,6 +34,16 @@
             justify-content: space-between;
             align-items: center;
         }
+    }
+
+    .nav__contact {
+        position: absolute;
+        top: 0;
+        right: 12%;
+        padding: .4rem;
+        background: #000;
+        color: #fff;
+        font-size: $paragraph-size;
     }
 
     .dropdown {
