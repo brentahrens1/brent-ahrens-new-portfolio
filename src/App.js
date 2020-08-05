@@ -7,34 +7,6 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
-      <h1>This is a test</h1>
     </div>
   );
 }

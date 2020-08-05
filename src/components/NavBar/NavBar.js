@@ -7,6 +7,9 @@ const NavBar = () => {
     const [ scrollTop, setScrollTop ] = useState(window.scrollY)
     const [ visible, setVisible ] = useState(true)
     const [ isContactOpen, setIsContactOpen ] = useState(false)
+    const [ isOpen, setIsOpen ] = useState(false)
+
+    window.onresize = () => (window.innerWidth > 900 && isOpen) && setIsOpen(false)
 
     const handleScroll = () => {
         let currentScroll = window.scrollY
@@ -41,9 +44,11 @@ const NavBar = () => {
         <div className="nav">
             <div className="navbar">
                 <div className="navbar__under">
-                    <div className="navbar__dropdown">
-                        <li><Link to="/">Index</Link></li>
-                        <li><Link to="/">About</Link></li>
+                    <div className={`navbar__dropdown ${isOpen ? "show" : "hide"}`}>
+                        <ul className="dropdown__list">
+                            <li className="dropdown__list-item"><Link to="/">Index</Link></li>
+                            <li className="dropdown__list-item"><Link to="/">About</Link></li>
+                        </ul>
                         <li className="nav__list-item"><a href="#">Github</a></li>
                     </div>
                     <div className={ visible ? "navbar__name" : "navbar__hidden" }>
@@ -55,7 +60,7 @@ const NavBar = () => {
                     <li className="navbar__list-item"><Link to="/">About</Link></li>
                     <li className="navbar__list-item"><a href="#">Github</a></li>
                 </ul>
-                <div className="hamburger">
+                <div className={`hamburger ${isOpen ? "open" : "closed"}`} onClick={() => setIsOpen(!isOpen)}>
                     <div className="hamburger__bar" />
                     <div className="hamburger__bar" />
                     <div className="hamburger__bar" />
