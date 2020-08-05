@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import '../../sass/_navbar.scss'
+
 import { Link } from 'react-router-dom'
 
 const NavBar = () => {
@@ -8,13 +10,11 @@ const NavBar = () => {
                 <div className="navbar__name">
                     <h1>Brent Ahrens</h1>
                 </div>
-                <div>
-                    <ul className="navbar__list">
-                        <li className="navbar__list-item"><Link to="/">Index</Link></li>
-                        <li className="navbar__list-item"><Link to="/">About</Link></li>
-                        <li className="navbar__list-item"><a href="#">Github</a></li>
-                    </ul>
-                </div>
+                <ul className="navbar__list">
+                    <li className="navbar__list-item"><Link to="/">Index</Link></li>
+                    <li className="navbar__list-item"><Link to="/">About</Link></li>
+                    <li className="navbar__list-item"><a href="#">Github</a></li>
+                </ul>
                 <div className="hamburger">
                     <div className="hamburger__bar" />
                     <div className="hamburger__bar" />

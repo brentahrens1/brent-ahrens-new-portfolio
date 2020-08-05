@@ -1,0 +1,40 @@
+@media (min-width: 750px) {
+    .nav {
+        position: relative;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 5%;
+        width: 30rem;
+        background: #000;
+
+        &__name {
+            position: absolute;
+            top: 2rem;
+            width: 100%;
+            background: #000;
+            font-size: 1.6rem;
+            text-align: center;
+            border-top: 3px solid #fff;
+            color: #fff;
+        }
+
+        &__list {
+            height: 2rem;
+            padding: 0 1rem;
+            font-size: 1.3rem;
+            background: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .dropdown {
+        display: none;
+    }
+}
