@@ -73,7 +73,7 @@ $paragraph-size: 1.3rem;
         border-top: 3px solid #fff;
         color: #fff;
         font-size: 1.6rem;
-        transition: opacity 400ms ease-in-out;
+        transition: opacity 300ms ease-in-out;
     }
 
     &__visible {
@@ -183,5 +183,17 @@ $paragraph-size: 1.3rem;
 
     .hamburger {
         display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar__name {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .navbar__name {
+        font-size: 1rem;
     }
 }
