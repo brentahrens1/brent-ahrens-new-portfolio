@@ -37,9 +37,15 @@
 @media (min-width: 800px) {
 
     .index {
+        padding: 1rem;
+        padding-top: 7rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(auto, auto);
+    }
+
+    .index__content {
+        height: 100%;
     }
 
     .index__link-mobile {
