@@ -45,7 +45,7 @@ const NavBar = () => {
                         </ul>
                     </div>
                     <div className={`navbar__name ${visible ? "navbar__visible" : "navbar__hidden"}`}>
-                        <h1>Brent Ahrens</h1>
+                        <Link to="/"><h1>Brent Ahrens</h1></Link>
                     </div>
                 </div>
                 <ul className="navbar__list">
