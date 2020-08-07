@@ -39,9 +39,9 @@ const NavBar = () => {
                 <div className="navbar__under">
                     <div className={`navbar__dropdown ${isOpen ? "show" : "hide"}`}>
                         <ul className="dropdown__list">
-                            <li className="dropdown__list-item"><Link to="/">Index</Link></li>
+                            <li className="dropdown__list-item"><Link to="/index">Index</Link></li>
                             <li className="dropdown__list-item"><Link to="/">About</Link></li>
-                            <li className="nav__list-item"><a href="#">Github</a></li>
+                            <li className="nav__list-item"><a href="https://github.com/brentahrens1" target="_blank">Github</a></li>
                         </ul>
                     </div>
                     <div className={`navbar__name ${visible ? "navbar__visible" : "navbar__hidden"}`}>
@@ -49,9 +49,9 @@ const NavBar = () => {
                     </div>
                 </div>
                 <ul className="navbar__list">
-                    <li className="navbar__list-item"><Link to="/">Index</Link></li>
+                    <li className="navbar__list-item"><Link to="/index">Index</Link></li>
                     <li className="navbar__list-item"><Link to="/">About</Link></li>
-                    <li className="navbar__list-item"><a href="#">Github</a></li>
+                    <li className="navbar__list-item"><a href="https://github.com/brentahrens1" target="_blank">Github</a></li>
                 </ul>
                 <div className={`hamburger ${isOpen ? "open" : "closed"}`} onClick={() => setIsOpen(!isOpen)}>
                     <div className="hamburger__bar" />
