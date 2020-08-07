@@ -16,7 +16,7 @@ export const projects = [
         title: "Ace Reader",
         img: aceReader,
         description: "This is the info bro this is a super dope site.",
-        link: "http://www.reader.acehotel.com/",
+        link: "http://reader.acehotel.com/",
         linkTitle: "reader.acehotel.com",
         background: "#A5BFE0"
     },

@@ -18,6 +18,7 @@ const Home = () => {
                             </div>
                             <p className="project__description">{project.description}</p>
                         </div>
+                        <h1 className="project__link-mobile"><a href={project.link} target="_blank" rel="noopener noreferrer">{project.linkTitle}</a></h1>
                     </div>
                 )
             }
