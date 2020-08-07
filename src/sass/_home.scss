@@ -76,9 +76,10 @@
         }
     }
 
-    .project__image {
+    .project__image, .project__description {
         width: 58vw;
         min-width: 400px;
+        margin: 1rem auto;
     }
 
     .project__image img:hover ~ .project__link-popup, .project__link-popup:hover {
@@ -117,6 +118,10 @@
 
     .project__link-mobile {
         font-size: 1.5rem;
+    }
+
+    .project__description {
+        font-size: 1rem;
     }
 }
 
