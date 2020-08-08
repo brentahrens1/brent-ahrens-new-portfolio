@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home'
 import Index from './components/Index/Index'
 import About from './components/About/About'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <Route path="/index" exact component={Index} />
         <Route path="/about" exact component={About} />
       </Switch>
+      <div id="footer">
+        <Footer />
+      </div>
     </div>
   );
 }
