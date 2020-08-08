@@ -7,7 +7,7 @@ export const projects = [
     {
         title: "Young Planet",
         img: youngPlanet,
-        description: "Young Planet is a Brooklyn based Hip Hop duo. Built with React js and SASS",
+        description: "Young Planet is a Brooklyn based Hip Hop duo. I Built and designed this site using React js and SASS",
         link: "https://www.cidida.com",
         linkTitle: "spinyoungplanet.com",
         background: "#D8D8D8",
@@ -16,7 +16,7 @@ export const projects = [
     {
         title: "Ace Reader",
         img: aceReader,
-        description: "A blog for all Ace Hotel properties. A Wordpress site I contributed to with CSS and javascript echancements.",
+        description: "A culture blog for all Ace Hotel properties. Built in collaboration with the Atelier Ace Design and Web teams using Wordpress. I contribute CSS and javascript echancements as well as content updates.",
         link: "http://reader.acehotel.com/",
         linkTitle: "reader.acehotel.com",
         background: "#A5BFE0",
@@ -25,7 +25,7 @@ export const projects = [
     {
         title: "Breslin",
         img: breslin,
-        description: "A famed Michelin gastro pub in New York City. In collaboration with our design team, I built the custom Squarespace site in developer mode using css and javascript.",
+        description: "A famed Michelin gastro pub in New York City. In collaboration with our design team, I built the site using Squarespace developer mode. Implementing custom css and javascript enhancements, as well as fucntionality to the CMS that can be updated and managed by the restaurant.",
         link: "https://www.breslinnyc.com/",
         linkTitle: "breslinnyc.com",
         background: "#1F7750",
@@ -34,7 +34,7 @@ export const projects = [
     {
         title: "Ace Hotel",
         img: aceHotel,
-        description: "A chain of boutique hotels with locations across the country and abroad. I build and manage property sites in the Wagtail admin and regularly implement CSS enhancements, content updates, bug fixes and SEO improvements.",
+        description: "A chain of boutique hotels with locations across the country and abroad. I implement SCSS enhancements, bug fixes, SEO improvements and update/manage content in the Wagtail admin",
         link: "https://www.acehotel.com/",
         linkTitle: "acehotel.com",
         background: "#fff",
