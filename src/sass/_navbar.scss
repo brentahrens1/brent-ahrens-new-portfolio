@@ -67,22 +67,23 @@ $paragraph-size: 1.1rem;
     }
 
     &__name {
+        position: absolute;
         width: 100%;
         background: #000;
         text-align: center;
         border-top: 3px solid #fff;
         color: #fff;
         font-size: 1.6rem;
-        transition: opacity 300ms ease-in-out;
+        transition: left 600ms ease-in-out;
     }
 
     &__visible {
+        left: 0;
         opacity: 1;
     }
 
     &__hidden {
-        opacity: 0;
-        height: 0;
+        left: -100rem;
     }
 
     &__list {
