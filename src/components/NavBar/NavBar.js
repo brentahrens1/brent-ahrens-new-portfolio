@@ -40,7 +40,7 @@ const NavBar = () => {
                     <div className={`navbar__dropdown ${isOpen ? "show" : "hide"}`}>
                         <ul className="dropdown__list">
                             <li className="dropdown__list-item"><Link to="/index">Index</Link></li>
-                            <li className="dropdown__list-item"><Link to="/">About</Link></li>
+                            <li className="dropdown__list-item"><Link to="/about">About</Link></li>
                             <li className="nav__list-item"><a href="https://github.com/brentahrens1" target="_blank">Github</a></li>
                         </ul>
                     </div>
@@ -50,7 +50,7 @@ const NavBar = () => {
                 </div>
                 <ul className="navbar__list">
                     <li className="navbar__list-item"><Link to="/index">Index</Link></li>
-                    <li className="navbar__list-item"><Link to="/">About</Link></li>
+                    <li className="navbar__list-item"><Link to="/about">About</Link></li>
                     <li className="navbar__list-item"><a href="https://github.com/brentahrens1" target="_blank">Github</a></li>
                 </ul>
                 <div className={`hamburger ${isOpen ? "open" : "closed"}`} onClick={() => setIsOpen(!isOpen)}>
