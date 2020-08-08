@@ -61,7 +61,7 @@ const NavBar = () => {
                     <div className="hamburger__bar" />
                 </div>
             </div>
-            <div className="nav__contact" onMouseEnter={contactExpand} onMouseLeave={contactClose}>
+            <div className="nav__contact" onMouseEnter={contactExpand} onMouseLeave={contactClose} onClick={() => contactExpand}>
                 <p>Contact</p>
             </div>
             <div className="nav__location">

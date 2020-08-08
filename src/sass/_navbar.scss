@@ -77,15 +77,6 @@ $paragraph-size: 1.1rem;
         transition: left 500ms ease-in-out;
     }
 
-    &__visible {
-        left: 0;
-        opacity: 1;
-    }
-
-    &__hidden {
-        left: -40rem;
-    }
-
     &__list {
         display: none;
     }
@@ -172,6 +163,15 @@ $paragraph-size: 1.1rem;
             font-size: $paragraph-size;
             @include flex-row;
             justify-content: space-between;
+        }
+
+        &__visible {
+            left: 0;
+            opacity: 1;
+        }
+    
+        &__hidden {
+            left: -40rem;
         }
     }
 
