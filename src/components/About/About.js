@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className="about">
             <div className="about__info">
-                <p>Hello, I am an independent designer and front-end developer. Feel free to contact me for design, branding or web development projects.</p>
+                <p>I’m a passionate, self-motivated front end web developer who thrives in demanding and dynamic roles that leverage my affinity for cutting edge technology and collaboration.</p>
                 <br></br>
                 <p>Feel free to contact me for web development projects.</p>
             </div>

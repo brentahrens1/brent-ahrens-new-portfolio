@@ -6,7 +6,7 @@
     flex-direction: column;
     
     &__info {
-        height: 60vh;
+        height: 57vh;
         padding: 3.5rem;
         background: #BB594E;
         font-size: 2rem;
@@ -19,6 +19,7 @@
 
         p {
             margin-bottom: .5rem;
+            font-size: 1.2rem;
         }
 
         a:link, a:visited {
