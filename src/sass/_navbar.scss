@@ -74,7 +74,7 @@ $paragraph-size: 1.1rem;
         border-top: 3px solid #fff;
         color: #fff;
         font-size: 1.6rem;
-        transition: left 600ms ease-in-out;
+        transition: left 500ms ease-in-out;
     }
 
     &__visible {
@@ -83,7 +83,7 @@ $paragraph-size: 1.1rem;
     }
 
     &__hidden {
-        left: -100rem;
+        left: -40rem;
     }
 
     &__list {
