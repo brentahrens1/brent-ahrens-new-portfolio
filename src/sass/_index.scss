@@ -93,3 +93,9 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 600px) {
+    .index {
+        margin-top: -2rem;
+    }
+}

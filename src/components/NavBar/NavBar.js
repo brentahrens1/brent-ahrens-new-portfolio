@@ -40,9 +40,9 @@ const NavBar = () => {
                     <div className="navbar__under-drop">
                         <div className={`navbar__dropdown ${isOpen ? "show" : "hide"}`}>
                             <ul className="dropdown__list">
-                                <li className="dropdown__list-item"><Link to="/index">Index</Link></li>
-                                <li className="dropdown__list-item"><Link to="/about">About</Link></li>
-                                <li className="nav__list-item"><a href="https://github.com/brentahrens1" target="_blank">Github</a></li>
+                                <li className="dropdown__list-item" onClick={() => setIsOpen(!isOpen)}><Link to="/index">Index</Link></li>
+                                <li className="dropdown__list-item" onClick={() => setIsOpen(!isOpen)}><Link to="/about">About</Link></li>
+                                <li className="nav__list-item" onClick={() => setIsOpen(!isOpen)}><a href="https://github.com/brentahrens1" target="_blank">Github</a></li>
                             </ul>
                         </div>
                         <div className={`navbar__name ${visible ? "navbar__visible" : "navbar__hidden"}`}>
