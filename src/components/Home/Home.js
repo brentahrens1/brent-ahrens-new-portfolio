@@ -16,6 +16,7 @@ const Home = () => {
                                 <img src={project.img} alt={project.title} />
                                 <h1 className="project__link-popup"><a href={project.link} target="_blank" rel="noopener noreferrer">{project.linkTitle}</a></h1>
                             </div>
+                            <h4 className="project__tech">{project.tech}</h4>
                             <p className="project__description">{project.description}</p>
                         </div>
                         <h1 className="project__link-mobile"><a href={project.link} target="_blank" rel="noopener noreferrer">{project.linkTitle}</a></h1>

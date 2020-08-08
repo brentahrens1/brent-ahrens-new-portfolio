@@ -20,6 +20,10 @@ body {
     flex-direction: column;
 }
 
+#footer {
+    margin-top: auto;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'trois-mille', Helvetica, sans-serif;
 }
@@ -49,9 +53,5 @@ a:link, a:visited {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
-}
-
-#footer {
-    margin-top: auto;
 }
 
