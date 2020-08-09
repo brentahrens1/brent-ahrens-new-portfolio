@@ -5,9 +5,27 @@ import aceHotel from "../images/websites/acehotel.png"
 
 export const projects = [
     {
+        title: "Ace Hotel",
+        img: aceHotel,
+        description: "A website for a chain of boutique hotels with locations across the country and abroad. I implement SCSS enhancements, bug fixes, SEO improvements and update/manage content in the Wagtail admin",
+        link: "https://www.acehotel.com/",
+        linkTitle: "acehotel.com",
+        background: "#fff",
+        tech: "Vue js | SASS | Wagtail"
+    },
+    {
+        title: "Breslin",
+        img: breslin,
+        description: "A website for a famed Michelin gastro pub in New York City. In collaboration with our design team, I built the site using Squarespace developer mode. Implementing custom css and javascript enhancements, as well as fucntionality to the CMS that can be updated and managed by the restaurant.",
+        link: "https://www.breslinnyc.com/",
+        linkTitle: "breslinnyc.com",
+        background: "#1F7750",
+        tech: "Squarespace | CSS | Javscript"
+    },
+    {
         title: "Young Planet",
         img: youngPlanet,
-        description: "Young Planet is a Brooklyn based Hip Hop duo. I Built and designed this site using React js and SASS",
+        description: "A website for Young Planet, a Brooklyn based Hip Hop duo. I Built and designed this site using React js and SASS",
         link: "https://www.cidida.com",
         linkTitle: "spinyoungplanet.com",
         background: "#D8D8D8",
@@ -21,23 +39,5 @@ export const projects = [
         linkTitle: "reader.acehotel.com",
         background: "#A5BFE0",
         tech: "Wordpress | CSS | Javascript"
-    },
-    {
-        title: "Breslin",
-        img: breslin,
-        description: "A famed Michelin gastro pub in New York City. In collaboration with our design team, I built the site using Squarespace developer mode. Implementing custom css and javascript enhancements, as well as fucntionality to the CMS that can be updated and managed by the restaurant.",
-        link: "https://www.breslinnyc.com/",
-        linkTitle: "breslinnyc.com",
-        background: "#1F7750",
-        tech: "Squarespace | CSS | Javscript"
-    },
-    {
-        title: "Ace Hotel",
-        img: aceHotel,
-        description: "A chain of boutique hotels with locations across the country and abroad. I implement SCSS enhancements, bug fixes, SEO improvements and update/manage content in the Wagtail admin",
-        link: "https://www.acehotel.com/",
-        linkTitle: "acehotel.com",
-        background: "#fff",
-        tech: "Vue js | SASS | Wagtail"
     },
 ]
