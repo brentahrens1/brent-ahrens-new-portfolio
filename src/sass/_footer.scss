@@ -1,6 +1,14 @@
 .footer {
     width: 100vw;
-    height: 2.5rem;
+    height: 5.5rem;
     background: #D8D8D8;
     text-align: center;
 }
+
+
+@media (min-width: 800px) {
+    .footer {
+        height: 2.5rem;
+    }
+}
+
