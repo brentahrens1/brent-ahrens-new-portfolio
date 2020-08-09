@@ -45,7 +45,7 @@ const NavBar = () => {
                                 <li className="nav__list-item" onClick={() => setIsOpen(!isOpen)}><a href="https://github.com/brentahrens1" target="_blank" rel="noopener noreferrer">Github</a></li>
                             </ul>
                         </div>
-                        <div className={`navbar__name ${visible ? "navbar__visible" : "navbar__hidden"}`}>
+                        <div className={`navbar__name ${visible ? "navbar__visible" : "navbar__hidden"}`} onClick={() => setIsOpen(!isOpen)}>
                             <Link to="/"><h1>Brent Ahrens</h1></Link>
                         </div>
                     </div>
