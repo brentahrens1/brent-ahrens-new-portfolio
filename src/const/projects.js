@@ -2,6 +2,7 @@ import youngPlanet from "../images/websites/young-planet.png"
 import aceReader from "../images/websites/reader.png"
 import breslin from "../images/websites/breslin.png"
 import aceHotel from "../images/websites/acehotel.png"
+import piopiko from "../images/websites/piopiko.png"
 
 export const projects = [
     {
@@ -14,9 +15,18 @@ export const projects = [
         tech: "Vue js | SASS | Wagtail"
     },
     {
+        title: "Piopiko",
+        img: piopiko,
+        description: "A website for a new taquera in Kyoto, Japan. Built in collaboration with the Atelier Ace design and web team, I contributed a custom homepage built with CSS grid and flexbox.",
+        link: "https://www.piopiko.com/",
+        linkTitle: "piopiko.com",
+        background: "#EE7762",
+        tech: "Squarespace | CSS"
+    },
+    {
         title: "Breslin",
         img: breslin,
-        description: "A website for a famed Michelin gastro pub in New York City. In collaboration with our design team, I built the site using Squarespace developer mode. Implementing custom css and javascript enhancements, as well as fucntionality to the CMS that can be updated and managed by the restaurant.",
+        description: "A website for a famed Michelin gastro pub in New York City. In collaboration with our design team, I built the site using Squarespace developer mode. Implementing custom css and javascript enhancements, while still maintaining the CMS so content can be updated and managed by the restaurant.",
         link: "https://www.breslinnyc.com/",
         linkTitle: "breslinnyc.com",
         background: "#1F7750",
@@ -25,7 +35,7 @@ export const projects = [
     {
         title: "Young Planet",
         img: youngPlanet,
-        description: "A website for Young Planet, a Brooklyn based Hip Hop duo. I Built and designed this site using React js and SASS",
+        description: "A website for a Brooklyn based Hip Hop duo. I Built and designed this site using React js and SASS",
         link: "https://www.cidida.com",
         linkTitle: "spinyoungplanet.com",
         background: "#D8D8D8",
