@@ -12,7 +12,8 @@ export const projects = [
         link: "https://www.acehotel.com/",
         linkTitle: "acehotel.com",
         background: "#fff",
-        tech: "Vue js | SASS | Wagtail"
+        tech: "Vue js | SASS | Wagtail",
+        id: "top"
     },
     {
         title: "Piopiko",

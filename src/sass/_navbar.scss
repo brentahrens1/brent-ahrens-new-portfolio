@@ -5,7 +5,7 @@ $paragraph-size: 1.1rem;
 
 @mixin nav-info {
     position: fixed;
-    padding: .4rem;
+    padding: .5rem;
     background: #000;
     color: #fff;
     font-size: $paragraph-size;
@@ -134,11 +134,14 @@ $paragraph-size: 1.1rem;
     left: 5%;
 }
 
+.nav__location::before {
+    content: 'Developer, Los Angeles, CA';
+}
+
 .nav__contact {
     @include nav-info;
     bottom: 2rem;
     left: 5%;
-    width: 85px;
     text-align: center;
     overflow-x: hidden;
     transition: all 100ms ease-in-out;
@@ -180,6 +183,18 @@ $paragraph-size: 1.1rem;
         left: initial;
         top: 0;
         right: 5%;
+    }
+
+    .nav__location::before {
+        content: '';
+    }
+
+    .nav__location-initial::before {
+        content:'Developer, Los Angeles, CA';
+    }
+    
+    .nav__location-name::before {
+        content:'Brent Ahrens, Developer, Los Angeles, CA';
     }
 
     .hamburger {

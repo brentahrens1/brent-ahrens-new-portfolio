@@ -37,8 +37,8 @@
 @media (min-width: 800px) {
 
     .index {
-        padding: 1rem;
-        padding-top: 7rem;
+        padding: 1rem 5%;
+        padding-top: 6rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(auto, auto);
@@ -46,6 +46,7 @@
 
     .index__content {
         height: 100%;
+        padding: 2rem 1rem;
     }
 
     .index__link-mobile {
@@ -78,11 +79,11 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         background: #000;
         padding: 1rem;
         opacity: 0;
-        transition: opacity 900ms ease-in-out;
+        transition: opacity 100ms ease-in-out;
 
         a {
             font-family: 'trois-mille', Helvetica, sans-serif;
@@ -91,6 +92,10 @@
 
     .index__image img:hover ~ .index__link-popup, .index__link-popup:hover {
         opacity: 1;
+    }
+
+    .index__image:hover {
+        box-shadow: 7px 7px 0 0 #000;
     }
 }
 
