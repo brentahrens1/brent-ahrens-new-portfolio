@@ -34,6 +34,7 @@ $paragraph-size: 1.1rem;
     color: #fff;
     width: 100%;
     height: 3rem;
+    z-index: 999;
     @include flex-row;
 
     &__under {
@@ -74,7 +75,8 @@ $paragraph-size: 1.1rem;
         border-top: 1.5px solid #fff;
         color: #fff;
         font-size: 1.6rem;
-        transition: left 500ms ease-in-out;
+        z-index: 1;
+        transition: top 300ms ease-in-out;
     }
 
     &__list {
@@ -162,19 +164,22 @@ $paragraph-size: 1.1rem;
 
         &__list {
             width: 100%;
+            height: 100%;
             padding: 0 .3rem;
             font-size: $paragraph-size;
             @include flex-row;
             justify-content: space-between;
+            z-index: 999;
+            background: #000;
         }
 
         &__visible {
-            left: 0;
+            top: 0;
             opacity: 1;
         }
     
         &__hidden {
-            left: -40rem;
+            top: -6rem;
         }
     }
 
