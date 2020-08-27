@@ -54,7 +54,7 @@ $paragraph-size: 1.1rem;
         height: 0;
         top: -10rem;
         font-size: $paragraph-size;
-        padding: 0 1rem;
+        padding: 0;
         transition: opacity 700ms ease-in-out, height 500ms ease-in-out;
 
         &.show {
@@ -63,8 +63,15 @@ $paragraph-size: 1.1rem;
             top: initial;
         }
 
-        li {
-            padding-bottom: .5rem;
+        .dropdown__list {
+            padding-left: 5%;
+            li {
+                padding-bottom: .5rem;
+            }
+    
+            li:last-child {
+                margin-bottom: .5rem;
+            }
         }
     }
 
@@ -91,6 +98,7 @@ $paragraph-size: 1.1rem;
     position: relative;
     z-index: 999;
     margin: 1rem auto;
+    margin-top: 1.4rem;
     cursor: pointer;
 
     &__bar {
@@ -210,7 +218,7 @@ $paragraph-size: 1.1rem;
 
 @media (max-width: 500px) {
     .navbar__name {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }
 
