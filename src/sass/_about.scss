@@ -21,8 +21,11 @@
             
             p, a:link, a:visited {
                 color: #000;
-                margin: 0;
                 font-family: 'trois-mille', Helvetica, sans-serif;
+            }
+
+            p:not(:nth-child(1)) {
+                margin-left: 1rem;
             }
         }
     }
@@ -69,6 +72,10 @@
                 min-width: 80%;
                 flex-direction: column;
                 font-size: .9rem;
+
+                p:not(:nth-child(1)) {
+                    margin-left: 0rem;
+                }
             }
         }
 
