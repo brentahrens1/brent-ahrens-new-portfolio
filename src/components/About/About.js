@@ -3,7 +3,7 @@ import React from 'react'
 import '../../sass/_about.scss'
 import '../../sass/_home.scss'
 
-import fill from '../../images/websites/piopiko.png'
+import BrentAbout from '../../images/about/brent-about.jpeg'
 
 import CV from '../../cv/BrentAhrens_Resume.pdf'
 
@@ -14,7 +14,7 @@ const About = () => {
                 <div className="project__inner">
                     <div className="project__content">
                             <div className="project__image">
-                                <img src={fill} alt="filler" />
+                                <img src={BrentAbout} alt="Brent Ahrens | Frontend Developer" />
                             </div>
                         <p className="project__description">I’m a passionate, self-motivated frontend web developer who thrives in demanding and dynamic roles that leverage my affinity for cutting edge technology and collaboration.</p>
                         <div className="project__description-contact">
