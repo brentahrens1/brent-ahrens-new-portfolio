@@ -14,15 +14,15 @@ const About = () => {
                 <div className="project__inner">
                     <div className="project__content">
                             <div className="project__image">
+                                <a href="mailto:brentholmesahrens.com" target="_blank" rel="noopener noreferrer">
                                 <img src={BrentAbout} alt="Brent Ahrens | Frontend Developer" />
+                                <h1 className="project__link-popup"><a href="mailto:brentholmesahrens.com" target="_blank" rel="noopener noreferrer">Contact Me</a></h1>
+                                </a>
                             </div>
+                        <h4 className="project__tech"><a href={CV} target="_blank" rel="noopener noreferrer">Resume</a> | <a href="https://www.linkedin.com/in/brenthahrens/" target="_blank" rel="noopener noreferrer">Linkedin</a></h4>
                         <p className="project__description">I’m a passionate, self-motivated frontend web developer who thrives in demanding and dynamic roles that leverage my affinity for cutting edge technology and collaboration.</p>
-                        <div className="project__description-contact">
-                            <p><a href={CV} target="_blank" rel="noopener noreferrer">CV</a></p>
-                            <p><a href="https://www.linkedin.com/in/brenthahrens/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
-                            <p><a href="mailto:brentholmesahrens@gmail.com" target="_blank" rel="noopener noreferrer">brentholmesahrens@gmail.com</a></p>
-                        </div>
                     </div>
+                    <h1 className="project__link-mobile"><a href="mailto:brentholmesahrens.com" target="_blank" rel="noopener noreferrer">brentholmesahrens@gmail.com</a></h1>
                 </div>
             </div>
             <div className="skills">
@@ -51,7 +51,7 @@ const About = () => {
                 </div>
                 <div className="skills__contact">
                     <h1>Contact</h1>
-                    <h3><a href={CV} target="_blank" rel="noopener noreferrer">CV</a></h3>
+                    <h3><a href={CV} target="_blank" rel="noopener noreferrer">Resume</a></h3>
                     <h3><a href="https://www.linkedin.com/in/brenthahrens/" target="_blank" rel="noopener noreferrer">Linkedin</a></h3>
                     <h3><a href="mailto:brentholmesahrens@gmail.com" target="_blank" rel="noopener noreferrer">Email: brentholmesahrens@gmail.com</a></h3>
                 </div>
