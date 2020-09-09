@@ -8,11 +8,11 @@ export const projects = [
     {
         title: "Ace Hotel",
         img: aceHotel,
-        description: "A website for a chain of boutique hotels with locations across the country and abroad. I implement SCSS enhancements, bug fixes, SEO improvements and update/manage content in the Wagtail admin",
+        description: "A website for a chain of boutique hotels with locations across the country and abroad. I implement SCSS enhancements, bug fixes, SEO improvements and update/manage content.",
         link: "https://www.acehotel.com/",
         linkTitle: "acehotel.com",
         background: "#fff",
-        tech: "Vue js | SASS | Wagtail",
+        tech: "Vue js | SASS",
         id: "top"
     },
     {
