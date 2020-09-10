@@ -5,9 +5,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom'
 import './fonts/TroisMille-Wd50Wg50.otf'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 ReactDOM.render(
   <Router>
+    <ScrollToTop />
     <App />
   </Router>,
   document.getElementById('root')
