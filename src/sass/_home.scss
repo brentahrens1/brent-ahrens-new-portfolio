@@ -4,6 +4,8 @@
 }
 
 .project__inner {
+    position: sticky;
+    top: 0;
     height: 95vh;
     min-height: 500px;
     width: 100%;
@@ -12,7 +14,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: relative;
 }
 
 .project__content {
@@ -157,7 +158,7 @@
     }
 
     .project__description {
-        font-size: .9rem;
+        font-size: 1.2rem;
     }
 }
 

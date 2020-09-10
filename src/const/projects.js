@@ -27,7 +27,7 @@ export const projects = [
     {
         title: "Breslin",
         img: breslin,
-        description: "A website for a famed Michelin gastro pub in New York City. In collaboration with our design team, I built the site using Squarespace developer mode. Implementing custom css and javascript enhancements, while still maintaining the CMS so content can be updated and managed by the restaurant.",
+        description: "A website for a famed Michelin gastro pub in New York City. In collaboration with our design team, I built the site implementing custom css and javascript.",
         link: "https://www.breslinnyc.com/",
         linkTitle: "breslinnyc.com",
         background: "#1F7750",
