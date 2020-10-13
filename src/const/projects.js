@@ -3,6 +3,8 @@ import aceReader from "../images/websites/reader.png"
 import breslin from "../images/websites/breslin.png"
 import aceHotel from "../images/websites/acehotel.png"
 import piopiko from "../images/websites/piopiko.png"
+import tingroll from "../images/websites/tingroll.png"
+import tingrollBackground from '../images/websites/tingroll-background.png'
 
 export const projects = [
     {
@@ -23,6 +25,15 @@ export const projects = [
         linkTitle: "piopiko.com",
         background: "#EE7762",
         tech: "Squarespace | CSS"
+    },
+    {
+        title: "Tingroll",
+        img: tingroll,
+        description: "A website for a LA based Copywriter. In collaboration with Graphic Designer Karlo Muro, I built this site with React and SCSS",
+        link: "https://tingroll.com/",
+        linkTitle: "tingroll.com",
+        background: "#c3b3fb",
+        tech: "React | SCSS"
     },
     {
         title: "Breslin",
