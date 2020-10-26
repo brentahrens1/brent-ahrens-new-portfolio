@@ -146,6 +146,14 @@
     }
 
     .project__content {
+       overflow-x: hidden;
+
+        .project__title {
+            font-size: 30px;
+        }
+    }
+
+    .project__content {
         margin-top: 0rem;
     }
 
