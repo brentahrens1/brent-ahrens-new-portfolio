@@ -4,8 +4,7 @@ import breslin from "../images/websites/breslin.png"
 import aceHotel from "../images/websites/acehotel.png"
 import piopiko from "../images/websites/piopiko.png"
 import tingroll from "../images/websites/tingroll.png"
-import tingrollBackground from '../images/websites/tingroll-background.png'
-
+import livefreelivewell from "../images/websites/livefreelivewell.png"
 export const projects = [
     {
         title: "Ace Hotel",
@@ -18,6 +17,24 @@ export const projects = [
         id: "top"
     },
     {
+        title: "LIVEFREELIVEWELL",
+        img: livefreelivewell,
+        description: "A website for a LA based fitness instructor.",
+        link: "https://www.livefreelivewell.com/",
+        linkTitle: "livefreelivewell.com",
+        background: "#153F6D",
+        tech: "React JS | SCSS"
+    },
+    {
+        title: "Tingroll",
+        img: tingroll,
+        description: "A website for a LA based Copywriter. In collaboration with Graphic Designer Karlo Muro.",
+        link: "https://tingroll.com/",
+        linkTitle: "tingroll.com",
+        background: "#c3b3fb",
+        tech: "React JS | SCSS"
+    },
+    {
         title: "Piopiko",
         img: piopiko,
         description: "A website for a new taquera in Kyoto, Japan. Built in collaboration with the Atelier Ace design and web team, I contributed a custom homepage built with CSS grid and flexbox.",
@@ -27,18 +44,9 @@ export const projects = [
         tech: "Squarespace | CSS"
     },
     {
-        title: "Tingroll",
-        img: tingroll,
-        description: "A website for a LA based Copywriter. In collaboration with Graphic Designer Karlo Muro, I built this site with React and SCSS",
-        link: "https://tingroll.com/",
-        linkTitle: "tingroll.com",
-        background: "#c3b3fb",
-        tech: "React | SCSS"
-    },
-    {
         title: "Breslin",
         img: breslin,
-        description: "A website for a famed Michelin gastro pub in New York City. In collaboration with our design team, I built the site implementing custom css and javascript.",
+        description: "A website for a famed Michelin gastro pub in New York City. In collaboration with the Atelier Ace design team, I built the site implementing custom css and javascript.",
         link: "https://www.breslinnyc.com/",
         linkTitle: "breslinnyc.com",
         background: "#1F7750",
