@@ -14,7 +14,8 @@ export const projects = [
         linkTitle: "acehotel.com",
         background: "#fff",
         tech: "Vue js | SASS",
-        id: "top"
+        id: "top",
+        href: "Brent Ahrens | Ace Hotel Website"
     },
     {
         title: "LIVEFREELIVEWELL",
@@ -23,7 +24,8 @@ export const projects = [
         link: "https://www.livefreelivewell.com/",
         linkTitle: "livefreelivewell.com",
         background: "#153F6D",
-        tech: "React JS | SCSS"
+        tech: "React JS | SCSS",
+        href: "Brent Ahrens | LIVEFREELIVEWELL Website"
     },
     {
         title: "Tingroll",
@@ -32,7 +34,8 @@ export const projects = [
         link: "https://tingroll.com/",
         linkTitle: "tingroll.com",
         background: "#c3b3fb",
-        tech: "React JS | SCSS"
+        tech: "React JS | SCSS",
+        href: "Brent Ahrens | Tingroll Website"
     },
     {
         title: "Piopiko",
@@ -41,7 +44,8 @@ export const projects = [
         link: "https://www.piopiko.com/",
         linkTitle: "piopiko.com",
         background: "#EE7762",
-        tech: "Squarespace | CSS"
+        tech: "Squarespace | CSS",
+        href: "Brent Ahrens | Piopiko Website"
     },
     {
         title: "Breslin",
@@ -50,7 +54,8 @@ export const projects = [
         link: "https://www.breslinnyc.com/",
         linkTitle: "breslinnyc.com",
         background: "#1F7750",
-        tech: "Squarespace | CSS | Javscript"
+        tech: "Squarespace | CSS | Javscript",
+        href: "Brent Ahrens | Breslin Website"
     },
     {
         title: "Young Planet",
@@ -59,7 +64,8 @@ export const projects = [
         link: "https://www.cidida.com",
         linkTitle: "spinyoungplanet.com",
         background: "#D8D8D8",
-        tech: "React js | SASS"
+        tech: "React js | SASS",
+        href: "Brent Ahrens | Young Planet Website"
     },
     {
         title: "Ace Reader",
@@ -68,6 +74,7 @@ export const projects = [
         link: "http://reader.acehotel.com/",
         linkTitle: "reader.acehotel.com",
         background: "#A5BFE0",
-        tech: "Wordpress | CSS | Javascript"
+        tech: "Wordpress | CSS | Javascript",
+        href: "Brent Ahrens | Ace Reader Website"
     },
 ]

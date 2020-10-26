@@ -14,7 +14,7 @@ const Home = () => {
                             <h1 className="project__title">{project.title}</h1>
                                 <div className="project__image">
                                     <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                    <img src={project.img} alt={project.title} />
+                                    <img src={project.img} alt={project.href} />
                                     <h1 className="project__link-popup"><a href={project.link} target="_blank" rel="noopener noreferrer">{project.linkTitle}</a></h1>
                                     </a>
                                 </div>
