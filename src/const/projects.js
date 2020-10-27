@@ -58,16 +58,6 @@ export const projects = [
         href: "Brent Ahrens | Breslin Website"
     },
     {
-        title: "Young Planet",
-        img: youngPlanet,
-        description: "A website for a Brooklyn based Hip Hop duo. I Built and designed this site using React js and SASS",
-        link: "https://www.cidida.com",
-        linkTitle: "spinyoungplanet.com",
-        background: "#D8D8D8",
-        tech: "React js | SASS",
-        href: "Brent Ahrens | Young Planet Website"
-    },
-    {
         title: "Ace Reader",
         img: aceReader,
         description: "A culture blog for all Ace Hotel properties. Built in collaboration with the Atelier Ace Design and Web teams using Wordpress. I contribute CSS and javascript echancements as well as content updates.",
