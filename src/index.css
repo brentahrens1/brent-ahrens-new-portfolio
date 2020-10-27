@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'trois-mille';
-  src: local('trois-mille'), url('./fonts/TroisMille-Wd50Wg50.otf');
+  src: local('trois-mille'), url('./fonts/TroisMilleMedium-25.woff');
 }
 
 body {
