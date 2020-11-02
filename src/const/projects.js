@@ -6,6 +6,7 @@ import piopiko from "../images/websites/piopiko.png"
 import tingroll from "../images/websites/tingroll.png"
 import livefreelivewell from "../images/websites/livefreelivewell.png"
 import lakelly from "../images/websites/lakelly.png"
+import youplayhere from "../images/websites/youplayhere.png"
 
 export const projects = [
     {
@@ -38,6 +39,16 @@ export const projects = [
         background: "#c3b3fb",
         tech: "React JS | SCSS",
         href: "Brent Ahrens | Tingroll Website"
+    },
+    {
+        title: "You Play Here",
+        img: youplayhere,
+        description: "A website / Interactive Map for a Brooklyn based documentary filmmaker.",
+        link: "https://www.youplayherefilm.com",
+        linkTitle: "youplayhere.com",
+        background: "#C7DAE0",
+        tech: "React JS | SCSS",
+        href: "Brent Ahrens | You Play Here Website"
     },
     {
         title: "LA Kelly",
