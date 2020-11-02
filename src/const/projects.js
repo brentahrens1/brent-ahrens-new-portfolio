@@ -23,7 +23,7 @@ export const projects = [
     {
         title: "LIVEFREELIVEWELL",
         img: livefreelivewell,
-        description: "A website for a LA based fitness instructor.",
+        description: "A website for a LA based Fitness Instructor.",
         link: "https://www.livefreelivewell.com/",
         linkTitle: "livefreelivewell.com",
         background: "#153F6D",
