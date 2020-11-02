@@ -43,7 +43,7 @@ export const projects = [
     {
         title: "You Play Here",
         img: youplayhere,
-        description: "A website / Interactive Map for a Brooklyn based documentary filmmaker.",
+        description: "A website / Interactive Map for a Brooklyn based Documentary Filmmaker.",
         link: "https://www.youplayherefilm.com",
         linkTitle: "youplayhere.com",
         background: "#C7DAE0",
