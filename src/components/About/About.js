@@ -5,7 +5,7 @@ import '../../sass/_home.scss'
 
 import BrentAbout from '../../images/about/brent-about.jpeg'
 
-import CV from '../../cv/BrentAhrens_Resume.pdf'
+import CV from '../../cv/BrentAhrensResume.pdf'
 
 const About = () => {
     return (
