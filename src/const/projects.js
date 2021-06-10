@@ -1,4 +1,3 @@
-import youngPlanet from "../images/websites/young-planet.png"
 import aceReader from "../images/websites/reader.png"
 import breslin from "../images/websites/breslin.png"
 import aceHotel from "../images/websites/acehotel.png"
@@ -8,6 +7,8 @@ import livefreelivewell from "../images/websites/livefreelivewell.png"
 import lakelly from "../images/websites/lakelly.png"
 import youplayhere from "../images/websites/youplayhere.png"
 import screening from "../images/websites/screening.png"
+import youngArts from "../images/websites/youngarts.png"
+import spark from "../images/websites/spark.png"
 
 export const projects = [
     {
@@ -22,6 +23,27 @@ export const projects = [
         href: "Brent Ahrens | Ace Hotel Website"
     },
     {
+        title: "Young Arts",
+        img: youngArts,
+        description: "A website for an annual artists workshop in Miami.",
+        link: "https://youngarts.org/",
+        linkTitle: "youngarts.org",
+        background: "#66B2F8",
+        tech: "Wordpress | Timber/Twig | Tailwind | PostCSS",
+        id: "top",
+        href: "Brent Ahrens | Young Arts"
+    },
+    {
+        title: "Piopiko",
+        img: piopiko,
+        description: "A website for a new taquera in Kyoto, Japan.",
+        link: "https://www.piopiko.com/",
+        linkTitle: "piopiko.com",
+        background: "#EE7762",
+        tech: "Squarespace | CSS",
+        href: "Brent Ahrens | Piopiko Website"
+    },
+    {
         title: "LIVEFREELIVEWELL",
         img: livefreelivewell,
         description: "A website for a LA based Fitness Instructor.",
@@ -30,16 +52,6 @@ export const projects = [
         background: "#153F6D",
         tech: "React JS | SCSS",
         href: "Brent Ahrens | LIVEFREELIVEWELL Website"
-    },
-    {
-        title: "Tingroll",
-        img: tingroll,
-        description: "A website for a LA based Copywriter.",
-        link: "https://tingroll.com/",
-        linkTitle: "tingroll.com",
-        background: "#c3b3fb",
-        tech: "React JS | SCSS",
-        href: "Brent Ahrens | Tingroll Website"
     },
     {
         title: "You Play Here",
@@ -62,14 +74,14 @@ export const projects = [
         href: "Brent Ahrens | LA Kelly Website"
     },
     {
-        title: "Piopiko",
-        img: piopiko,
-        description: "A website for a new taquera in Kyoto, Japan.",
-        link: "https://www.piopiko.com/",
-        linkTitle: "piopiko.com",
-        background: "#EE7762",
-        tech: "Squarespace | CSS",
-        href: "Brent Ahrens | Piopiko Website"
+        title: "Tingroll",
+        img: tingroll,
+        description: "A website for a LA based Copywriter.",
+        link: "https://tingroll.com/",
+        linkTitle: "tingroll.com",
+        background: "#c3b3fb",
+        tech: "React JS | SCSS",
+        href: "Brent Ahrens | Tingroll Website"
     },
     {
         title: "Breslin",
@@ -88,8 +100,18 @@ export const projects = [
         link: "http://reader.acehotel.com/",
         linkTitle: "reader.acehotel.com",
         background: "#A5BFE0",
-        tech: "Wordpress | CSS | Javascript",
+        tech: "Wordpress | CSS | PHP",
         href: "Brent Ahrens | Ace Reader Website"
+    },
+    {
+        title: "Spark Home Health",
+        img: spark,
+        description: "A website for a pediatric care company in Denver, CO.",
+        link: "https://sparkhomehealth.com/",
+        linkTitle: "sparkhomehealth.com/",
+        background: "#CDBBD4",
+        tech: "React | Typescript | Firebase | SCSS",
+        href: "Brent Ahrens | Spark Home Health"
     },
     {
         title: "Screening Forms",
@@ -97,7 +119,7 @@ export const projects = [
         description: "Screening forms for medical offices in Fresno, CA",
         link: "",
         linkTitle: "",
-        background: "#F7D2DF",
+        background: "#F3D2A5",
         tech: "React | Firebase | Node js",
         href: "Brent Ahrens | BBMC Covid Screening Forms"
     }
