@@ -9,6 +9,7 @@ import youplayhere from "../images/websites/youplayhere.png"
 import screening from "../images/websites/screening.png"
 import youngArts from "../images/websites/youngarts.png"
 import spark from "../images/websites/spark.png"
+import muir from '../images/websites/muir.png'
 
 export const projects = [
     {
@@ -42,6 +43,16 @@ export const projects = [
         background: "#EE7762",
         tech: "Squarespace | CSS",
         href: "Brent Ahrens | Piopiko Website"
+    },
+    {
+        title: "Muir Hotel",
+        img: muir,
+        description: "A website for a Marriott Autograph Collection boutique hotel in Halifax, Nova Scotia.",
+        link: "https://muirhotel.com",
+        linkTitle: "muirhotel.com",
+        background: "#A5A3A7",
+        tech: "Wordpress | Timber/Twig | Tailwind | PostCSS",
+        href: "Brent Ahrens | Muir Website"
     },
     {
         title: "LIVEFREELIVEWELL",
