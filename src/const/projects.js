@@ -130,7 +130,7 @@ export const projects = [
         description: "Screening forms for medical offices in Fresno, CA",
         link: "",
         linkTitle: "",
-        background: "#F3D2A5",
+        background: "#88B8A6",
         tech: "React | Firebase | Node js",
         href: "Brent Ahrens | BBMC Covid Screening Forms"
     }
