@@ -10,6 +10,7 @@ import screening from "../images/websites/screening.png"
 import youngArts from "../images/websites/youngarts.png"
 import spark from "../images/websites/spark.png"
 import muir from '../images/websites/muir.png'
+import flagship from '../images/websites/flagship.png'
 
 export const projects = [
     {
@@ -55,6 +56,46 @@ export const projects = [
         href: "Brent Ahrens | Muir Website"
     },
     {
+        title: "FLAGSHIP RTL",
+        img: flagship,
+        description: "A website for a retail platform that partners with luxury brands to launch performance-driven stores.",
+        link: "https://flagshiprtl.com/",
+        linkTitle: "flagshiprtl.com",
+        background: "#fff",
+        tech: "Javascript | CSS | Semplice",
+        href: "Brent Ahrens | Flagship RTL Website"
+    },
+    {
+        title: "Ace Reader",
+        img: aceReader,
+        description: "A culture blog for all Ace Hotel properties.",
+        link: "http://reader.acehotel.com/",
+        linkTitle: "reader.acehotel.com",
+        background: "#A5BFE0",
+        tech: "Wordpress | CSS | PHP",
+        href: "Brent Ahrens | Ace Reader Website"
+    },
+    {
+        title: "LA Kelly",
+        img: lakelly,
+        description: "A website for a LA based Real Estate Agent.",
+        link: "https://www.lakelly.com/",
+        linkTitle: "lakelly.com",
+        background: "#fff",
+        tech: "React JS | SCSS",
+        href: "Brent Ahrens | LA Kelly Website"
+    },
+    {
+        title: "Breslin",
+        img: breslin,
+        description: "A website for a famed Michelin gastro pub in New York City.",
+        link: "https://www.breslinnyc.com/",
+        linkTitle: "breslinnyc.com",
+        background: "#1F7750",
+        tech: "Squarespace | CSS | Javscript",
+        href: "Brent Ahrens | Breslin Website"
+    },
+    {
         title: "LIVEFREELIVEWELL",
         img: livefreelivewell,
         description: "A website for a LA based Fitness Instructor.",
@@ -75,16 +116,6 @@ export const projects = [
         href: "Brent Ahrens | You Play Here Website"
     },
     {
-        title: "LA Kelly",
-        img: lakelly,
-        description: "A website for a LA based Real Estate Agent.",
-        link: "https://www.lakelly.com/",
-        linkTitle: "lakelly.com",
-        background: "#fff",
-        tech: "React JS | SCSS",
-        href: "Brent Ahrens | LA Kelly Website"
-    },
-    {
         title: "Tingroll",
         img: tingroll,
         description: "A website for a LA based Copywriter.",
@@ -94,44 +125,4 @@ export const projects = [
         tech: "React JS | SCSS",
         href: "Brent Ahrens | Tingroll Website"
     },
-    {
-        title: "Breslin",
-        img: breslin,
-        description: "A website for a famed Michelin gastro pub in New York City.",
-        link: "https://www.breslinnyc.com/",
-        linkTitle: "breslinnyc.com",
-        background: "#1F7750",
-        tech: "Squarespace | CSS | Javscript",
-        href: "Brent Ahrens | Breslin Website"
-    },
-    {
-        title: "Ace Reader",
-        img: aceReader,
-        description: "A culture blog for all Ace Hotel properties.",
-        link: "http://reader.acehotel.com/",
-        linkTitle: "reader.acehotel.com",
-        background: "#A5BFE0",
-        tech: "Wordpress | CSS | PHP",
-        href: "Brent Ahrens | Ace Reader Website"
-    },
-    {
-        title: "Spark Home Health",
-        img: spark,
-        description: "A website for a pediatric care company in Denver, CO.",
-        link: "https://sparkhomehealth.com/",
-        linkTitle: "sparkhomehealth.com/",
-        background: "#CDBBD4",
-        tech: "React | Typescript | Firebase | SCSS",
-        href: "Brent Ahrens | Spark Home Health"
-    },
-    {
-        title: "Screening Forms",
-        img: screening,
-        description: "Screening forms for medical offices in Fresno, CA",
-        link: "",
-        linkTitle: "",
-        background: "#88B8A6",
-        tech: "React | Firebase | Node js",
-        href: "Brent Ahrens | BBMC Covid Screening Forms"
-    }
 ]

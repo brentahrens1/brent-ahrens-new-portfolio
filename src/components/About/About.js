@@ -33,12 +33,12 @@ const About = () => {
                         <h3>Vue js</h3>
                         <h3>Javascript</h3>
                         <h3>Typescript</h3>
+                        <h3>SCSS</h3>
+                        <h3>CSS3</h3>
                         <h3>Next js</h3>
                         <h3>Nuxt js</h3>
                         <h3>Node js</h3>
                         <h3>Express</h3>
-                        <h3>SCSS</h3>
-                        <h3>CSS3</h3>
                     </ul>
                     <ul>
                         <h3>Firebase</h3>
