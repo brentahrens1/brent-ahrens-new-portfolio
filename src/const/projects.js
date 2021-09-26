@@ -14,7 +14,7 @@ export const projects = [
     {
         title: "Working Not Working",
         img: wnw,
-        description: "A website where innovative companies search for creative talent.",
+        description: "Worked on a website where innovative companies search for creative talent.",
         link: "https://workingnotworking.com",
         linkTitle: "workingnotworking.com",
         background: "#EEEEEE",
@@ -25,7 +25,7 @@ export const projects = [
     {
         title: "Young Arts",
         img: youngArts,
-        description: "A website for an annual workshop that supports artists across 10 disciplines at all stages of development.",
+        description: "Worked on a website for an annual workshop that supports artists across 10 disciplines at all stages of development.",
         link: "https://youngarts.org/",
         linkTitle: "youngarts.org",
         background: "#66B2F8",
@@ -36,7 +36,7 @@ export const projects = [
     {
         title: "Getting Smart",
         img: gettingSmart,
-        description: "A website podcast that brings listeners some of the most informing, insightful and innovative strategies around education today.",
+        description: "Worked on a website for a podcast that brings listeners some of the most informing, insightful and innovative strategies around education today.",
         link: "https://www.gettingsmart.com",
         linkTitle: "gettingsmart.com",
         background: "#B03A32",
@@ -46,7 +46,7 @@ export const projects = [
     {
         title: "Ace Hotel",
         img: aceHotel,
-        description: "A website for a chain of boutique hotels with locations across the country and abroad.",
+        description: "Worked on a website for a chain of boutique hotels with locations across the country and abroad.",
         link: "https://www.acehotel.com/",
         linkTitle: "acehotel.com",
         background: "#fff",
@@ -57,7 +57,7 @@ export const projects = [
     {
         title: "Muir Hotel",
         img: muir,
-        description: "A website for a Marriott Autograph Collection boutique hotel in Halifax, Nova Scotia.",
+        description: "Worked on a website for a Marriott Autograph Collection boutique hotel in Halifax, Nova Scotia.",
         link: "https://muirhotel.com",
         linkTitle: "muirhotel.com",
         background: "#A5A3A7",
@@ -67,7 +67,7 @@ export const projects = [
     {
         title: "Keen",
         img: keen,
-        description: "A website for a healtcare company that helps seniors navigate medicare",
+        description: "Built a website for a healtcare company that helps seniors navigate medicare",
         link: "https://www.choosekeen.com",
         linkTitle: "choosekeen.com",
         background: "#88A59A",
@@ -77,7 +77,7 @@ export const projects = [
     {
         title: "Piopiko",
         img: piopiko,
-        description: "A website for a taquera in Kyoto, Japan.",
+        description: "Worked on a website for a taquera in Kyoto, Japan.",
         link: "https://www.piopiko.com/",
         linkTitle: "piopiko.com",
         background: "#EE7762",
@@ -87,7 +87,7 @@ export const projects = [
     {
         title: "LA Kelly",
         img: lakelly,
-        description: "A website for a LA based Real Estate Agent.",
+        description: "Built website for a LA based Real Estate Agent.",
         link: "https://www.lakelly.com/",
         linkTitle: "lakelly.com",
         background: "#fff",
@@ -97,7 +97,7 @@ export const projects = [
     {
         title: "Kins",
         img: kins,
-        description: "A website for a Physical Therapy company with a hybrid model of in-person and virtual care that makes physical therapy work for everyone.",
+        description: "Built a website for a Physical Therapy company with a hybrid model of in-person and virtual care that makes physical therapy work for everyone.",
         link: "https://kins.com/",
         linkTitle: "kins.com",
         background: "#EF8760",
@@ -107,7 +107,7 @@ export const projects = [
     {
         title: "FLAGSHIP RTL",
         img: flagship,
-        description: "A website for a retail platform that partners with luxury brands to launch performance-driven stores.",
+        description: "Built website for a retail platform that partners with luxury brands to launch performance-driven stores.",
         link: "https://flagshiprtl.com/",
         linkTitle: "flagshiprtl.com",
         background: "#fff",
@@ -117,7 +117,7 @@ export const projects = [
     {
         title: "Ace Reader",
         img: aceReader,
-        description: "A culture blog for all Ace Hotel properties.",
+        description: "Worked on a culture blog for all Ace Hotel properties.",
         link: "http://reader.acehotel.com/",
         linkTitle: "reader.acehotel.com",
         background: "#A5BFE0",
