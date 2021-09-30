@@ -9,6 +9,7 @@ import flagship from '../images/websites/flagship.png'
 import gettingSmart from '../images/websites/gettingsmart.png'
 import keen from '../images/websites/keen.png'
 import kins from '../images/websites/kins.png'
+import nineThousand from '../images/websites/9000.png'
 
 export const projects = [
     {
@@ -93,6 +94,16 @@ export const projects = [
         background: "#fff",
         tech: "React JS | SCSS",
         href: "Brent Ahrens | LA Kelly Website"
+    },
+    {
+        title: "9000 Wilshire",
+        img: nineThousand,
+        description: "Worked on a website for a building in Beverly Hills embodying the future of smart worspace design.",
+        link: "https://www.9000wilshire.com",
+        linkTitle: "9000wilshire.com",
+        background: "#83CAB3",
+        tech: "Squarespace | Javascript | CSS | HTML",
+        href: "Brent Ahrens | 9000 Wilshire Website"
     },
     {
         title: "Kins",
