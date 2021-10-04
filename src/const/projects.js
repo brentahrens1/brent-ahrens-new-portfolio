@@ -19,7 +19,7 @@ export const projects = [
         link: "https://workingnotworking.com",
         linkTitle: "workingnotworking.com",
         background: "#EEEEEE",
-        tech: "Tachyons | Slim | Stimulus js",
+        tech: "Tachyons | Slim | Stimulus js | Ruby",
         id: "top",
         href: "Brent Ahrens | Working Not Working Website"
     },
@@ -98,7 +98,7 @@ export const projects = [
     {
         title: "9000 Wilshire",
         img: nineThousand,
-        description: "Worked on a website for a building in Beverly Hills embodying the future of smart worspace design.",
+        description: "Worked on a website for a building in Beverly Hills embodying the future of smart workspace design.",
         link: "https://www.9000wilshire.com",
         linkTitle: "9000wilshire.com",
         background: "#83CAB3",
