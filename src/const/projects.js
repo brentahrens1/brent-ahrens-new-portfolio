@@ -10,6 +10,7 @@ import gettingSmart from '../images/websites/gettingsmart.png'
 import keen from '../images/websites/keen.png'
 import kins from '../images/websites/kins.png'
 import nineThousand from '../images/websites/9000.png'
+import thinkingBox from '../images/websites/thinkingbox.png'
 
 export const projects = [
     {
@@ -52,8 +53,17 @@ export const projects = [
         linkTitle: "acehotel.com",
         background: "#fff",
         tech: "Vue js | SASS",
-        id: "top",
         href: "Brent Ahrens | Ace Hotel Website"
+    },
+    {
+        title: "Thinkingbox (Kérastase)",
+        img: thinkingBox,
+        description: "Built a quiz website for L'Oreal x Kérastase Genesis collection.",
+        link: "https://www.kerastase-genesisquiz.com",
+        linkTitle: "genesisquiz.com",
+        background: "#E1C0C5",
+        tech: "Vue js | SCSS",
+        href: "Brent Ahrens | Thinkingbox Website"
     },
     {
         title: "Muir Hotel",
@@ -66,16 +76,6 @@ export const projects = [
         href: "Brent Ahrens | Muir Website"
     },
     {
-        title: "Keen",
-        img: keen,
-        description: "Built a website for a healtcare company that helps seniors navigate medicare",
-        link: "https://www.choosekeen.com",
-        linkTitle: "choosekeen.com",
-        background: "#88A59A",
-        tech: "Webflow | Javascript | CSS",
-        href: "Brent Ahrens | Keen Website"
-    },
-    {
         title: "Piopiko",
         img: piopiko,
         description: "Worked on a website for a taquera in Kyoto, Japan.",
@@ -84,16 +84,6 @@ export const projects = [
         background: "#EE7762",
         tech: "Squarespace | CSS",
         href: "Brent Ahrens | Piopiko Website"
-    },
-    {
-        title: "LA Kelly",
-        img: lakelly,
-        description: "Built website for a LA based Real Estate Agent.",
-        link: "https://www.lakelly.com/",
-        linkTitle: "lakelly.com",
-        background: "#fff",
-        tech: "React JS | SCSS",
-        href: "Brent Ahrens | LA Kelly Website"
     },
     {
         title: "9000 Wilshire",
@@ -114,6 +104,16 @@ export const projects = [
         background: "#EF8760",
         tech: "Webflow | Javascript | CSS",
         href: "Brent Ahrens | Kins Website"
+    },
+    {
+        title: "Keen",
+        img: keen,
+        description: "Built a website for a healtcare company that helps seniors navigate medicare",
+        link: "https://www.choosekeen.com",
+        linkTitle: "choosekeen.com",
+        background: "#88A59A",
+        tech: "Webflow | Javascript | CSS",
+        href: "Brent Ahrens | Keen Website"
     },
     {
         title: "FLAGSHIP RTL",
