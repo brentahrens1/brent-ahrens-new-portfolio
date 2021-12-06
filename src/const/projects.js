@@ -58,7 +58,7 @@ export const projects = [
     {
         title: "Thinkingbox (Kérastase)",
         img: thinkingBox,
-        description: "Built a quiz website for L'Oreal x Kérastase Genesis collection.",
+        description: "Built a quiz website for the Kérastase Genesis collection.",
         link: "https://www.kerastase-genesisquiz.com",
         linkTitle: "genesisquiz.com",
         background: "#E1C0C5",
