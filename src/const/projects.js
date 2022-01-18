@@ -11,6 +11,7 @@ import keen from '../images/websites/keen.png'
 import kins from '../images/websites/kins.png'
 import nineThousand from '../images/websites/9000.png'
 import thinkingBox from '../images/websites/thinkingbox.png'
+import hugo from '../images/websites/hugo.png'
 
 export const projects = [
     {
@@ -54,6 +55,16 @@ export const projects = [
         background: "#fff",
         tech: "Vue js | SASS",
         href: "Brent Ahrens | Ace Hotel Website"
+    },
+    {
+        title: "Hugo & Marie (Elyse Walker)",
+        img: hugo,
+        description: "Worked on a website for American fashion designer and retailer Elyse Walker.",
+        link: "https://elysewalker.com",
+        linkTitle: "elysewalker.com",
+        background: "#315B7C",
+        tech: "Javascript | JQuery | Shopify",
+        href: "Brent Ahrens | Elyse Walker Website"
     },
     {
         title: "Thinkingbox (Kérastase)",
