@@ -12,6 +12,7 @@ import kins from '../images/websites/kins.png'
 import nineThousand from '../images/websites/9000.png'
 import thinkingBox from '../images/websites/thinkingbox.png'
 import hugo from '../images/websites/hugo.png'
+import biocom from '../images/websites/biocom.png'
 
 export const projects = [
     {
@@ -37,16 +38,6 @@ export const projects = [
         href: "Brent Ahrens | Young Arts Website"
     },
     {
-        title: "Getting Smart",
-        img: gettingSmart,
-        description: "Worked on a website for a podcast that brings listeners some of the most informing, insightful and innovative strategies around education today.",
-        link: "https://www.gettingsmart.com",
-        linkTitle: "gettingsmart.com",
-        background: "#B03A32",
-        tech: "Wordpress | Timber/Twig | Tailwind | PostCSS",
-        href: "Brent Ahrens | Getting Smart Website"
-    },
-    {
         title: "Ace Hotel",
         img: aceHotel,
         description: "Worked on a website for a chain of boutique hotels with locations across the country and abroad.",
@@ -55,6 +46,16 @@ export const projects = [
         background: "#fff",
         tech: "Vue js | SASS",
         href: "Brent Ahrens | Ace Hotel Website"
+    },
+    {
+        title: "Getting Smart",
+        img: gettingSmart,
+        description: "Worked on a website for a podcast that brings listeners some of the most informing, insightful and innovative strategies around education today.",
+        link: "https://www.gettingsmart.com",
+        linkTitle: "gettingsmart.com",
+        background: "#B03A32",
+        tech: "Wordpress | Timber/Twig | Tailwind | PostCSS",
+        href: "Brent Ahrens | Getting Smart Website"
     },
     {
         title: "Hugo & Marie (Elyse Walker)",
@@ -67,16 +68,6 @@ export const projects = [
         href: "Brent Ahrens | Elyse Walker Website"
     },
     {
-        title: "Thinkingbox (Kérastase)",
-        img: thinkingBox,
-        description: "Built a quiz website for the Kérastase Genesis collection.",
-        link: "https://www.kerastase-genesisquiz.com",
-        linkTitle: "genesisquiz.com",
-        background: "#E1C0C5",
-        tech: "Vue js | SCSS",
-        href: "Brent Ahrens | Thinkingbox Website"
-    },
-    {
         title: "Muir Hotel",
         img: muir,
         description: "Worked on a website for a Marriott Autograph Collection boutique hotel in Halifax, Nova Scotia.",
@@ -85,6 +76,16 @@ export const projects = [
         background: "#A5A3A7",
         tech: "Wordpress | Timber/Twig | Tailwind | PostCSS",
         href: "Brent Ahrens | Muir Website"
+    },
+    {
+        title: "Biocom California",
+        img: biocom,
+        description: "Built a website for Science comes to life here in San Diego.",
+        link: "https://sciencecomestolifesandiego.com",
+        linkTitle: "sciencelifesandiego.com",
+        background: "#B8E4F3",
+        tech: "PHP | Javascipt | SCSS | Wordpress",
+        href: "Brent Ahrens | Science comes to life in San Diego Website"
     },
     {
         title: "Piopiko",
@@ -127,14 +128,14 @@ export const projects = [
         href: "Brent Ahrens | Keen Website"
     },
     {
-        title: "FLAGSHIP RTL",
-        img: flagship,
-        description: "Built website for a retail platform that partners with luxury brands to launch performance-driven stores.",
-        link: "https://flagshiprtl.com/",
-        linkTitle: "flagshiprtl.com",
-        background: "#fff",
-        tech: "Javascript | CSS | Semplice",
-        href: "Brent Ahrens | Flagship RTL Website"
+        title: "Thinkingbox (Kérastase)",
+        img: thinkingBox,
+        description: "Built a quiz website for the Kérastase Genesis collection.",
+        link: "https://www.kerastase-genesisquiz.com",
+        linkTitle: "genesisquiz.com",
+        background: "#E1C0C5",
+        tech: "Vue js | SCSS",
+        href: "Brent Ahrens | Thinkingbox Website"
     },
     {
         title: "Ace Reader",
