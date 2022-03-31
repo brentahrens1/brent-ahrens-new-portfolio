@@ -78,11 +78,11 @@ export const projects = [
         href: "Brent Ahrens | Muir Website"
     },
     {
-        title: "Biocom California",
+        title: "Science comes to life",
         img: biocom,
         description: "Built a website for Science comes to life here in San Diego.",
         link: "https://sciencecomestolifesandiego.com",
-        linkTitle: "sciencelifesandiego.com",
+        linkTitle: "sciencecomestolife.com",
         background: "#B8E4F3",
         tech: "PHP | Javascipt | SCSS | Wordpress",
         href: "Brent Ahrens | Science comes to life in San Diego Website"
