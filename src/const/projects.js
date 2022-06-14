@@ -18,10 +18,10 @@ export const projects = [
     {
         title: "Working Not Working",
         img: wnw,
-        description: "Worked on a website where innovative companies search for creative talent.",
+        description: "Work on a website where innovative companies search for creative talent.",
         link: "https://workingnotworking.com",
         linkTitle: "workingnotworking.com",
-        background: "#EEEEEE",
+        background: "#FAD85C",
         tech: "Tachyons | Slim | Stimulus js | Ruby",
         id: "top",
         href: "Brent Ahrens | Working Not Working Website"
