@@ -13,6 +13,8 @@ import nineThousand from '../images/websites/9000.png'
 import thinkingBox from '../images/websites/thinkingbox.png'
 import hugo from '../images/websites/hugo.png'
 import biocom from '../images/websites/biocom.png'
+import tempopay from '../images/websites/tempopay.png'
+import motto from '../images/websites/motto.png'
 
 export const projects = [
     {
@@ -56,6 +58,26 @@ export const projects = [
         background: "#B03A32",
         tech: "Wordpress | Timber/Twig | Tailwind | PostCSS",
         href: "Brent Ahrens | Getting Smart Website"
+    },
+    {
+        title: "Tempopay",
+        img: tempopay,
+        description: "Worked on a website for a company makes managing healthcare costs simple.",
+        link: "https://www.tempopay.com",
+        linkTitle: "tempopay.com",
+        background: "#FAE57D",
+        tech: "Next JS | Contentful | Sendgrid",
+        href: "Brent Ahrens | Tempopay Website"
+    },
+    {
+        title: "Motto Health",
+        img: motto,
+        description: "Built a website for a healthcare company specializing in Rheumatoid Arthritis with integrative, science-backed care—guided by a team of experts.",
+        link: "https://www.mottohealth.co",
+        linkTitle: "mottohealth.co",
+        background: "#395DC1",
+        tech: "Next JS | Storyblok | Firebase",
+        href: "Brent Ahrens | Motto Health Website"
     },
     {
         title: "Hugo & Marie (Elyse Walker)",
