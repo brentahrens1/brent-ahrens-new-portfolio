@@ -15,6 +15,7 @@ import hugo from '../images/websites/hugo.png'
 import biocom from '../images/websites/biocom.png'
 import tempopay from '../images/websites/tempopay.png'
 import motto from '../images/websites/motto.png'
+import checkerHall from '../images/websites/checker-hall.png'
 
 export const projects = [
     {
@@ -23,8 +24,8 @@ export const projects = [
         description: "Work on a website where innovative companies search for creative talent.",
         link: "https://workingnotworking.com",
         linkTitle: "workingnotworking.com",
-        background: "#FAD85C",
-        tech: "Tachyons | Slim | Stimulus js | Ruby",
+        background: "#B8995D",
+        tech: "Ruby on Rails",
         id: "top",
         href: "Brent Ahrens | Working Not Working Website"
     },
@@ -70,16 +71,6 @@ export const projects = [
         href: "Brent Ahrens | Tempopay Website"
     },
     {
-        title: "Motto Health",
-        img: motto,
-        description: "Built a website for a healthcare company specializing in Rheumatoid Arthritis with integrative, science-backed care—guided by a team of experts.",
-        link: "https://www.mottohealth.co",
-        linkTitle: "mottohealth.co",
-        background: "#395DC1",
-        tech: "Next JS | Storyblok | Firebase",
-        href: "Brent Ahrens | Motto Health Website"
-    },
-    {
         title: "Hugo & Marie (Elyse Walker)",
         img: hugo,
         description: "Worked on a website for American fashion designer and retailer Elyse Walker.",
@@ -90,6 +81,16 @@ export const projects = [
         href: "Brent Ahrens | Elyse Walker Website"
     },
     {
+        title: "Motto Health",
+        img: motto,
+        description: "Built a website for a healthcare company specializing in Rheumatoid Arthritis with integrative, science-backed care—guided by a team of experts.",
+        link: "https://www.mottohealth.co",
+        linkTitle: "mottohealth.co",
+        background: "#ffffff",
+        tech: "Next JS | Storyblok | Firebase",
+        href: "Brent Ahrens | Motto Health Website"
+    },
+    {
         title: "Muir Hotel",
         img: muir,
         description: "Worked on a website for a Marriott Autograph Collection boutique hotel in Halifax, Nova Scotia.",
@@ -98,6 +99,16 @@ export const projects = [
         background: "#A5A3A7",
         tech: "Wordpress | Timber/Twig | Tailwind | PostCSS",
         href: "Brent Ahrens | Muir Website"
+    },
+    {
+        title: "Checker Hall",
+        img: checkerHall,
+        description: "Built a website for a neighborhood bar and restaurant in Highland Park, Los Angeles.",
+        link: "https://checkerhall.com",
+        linkTitle: "checkerhall.com",
+        background: "#7B8F7F",
+        tech: "Webflow",
+        href: "Brent Ahrens | Science comes to life in San Diego Website"
     },
     {
         title: "Science comes to life",
