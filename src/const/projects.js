@@ -24,7 +24,7 @@ export const projects = [
         description: "Work on a website where innovative companies search for creative talent.",
         link: "https://workingnotworking.com",
         linkTitle: "workingnotworking.com",
-        background: "#B8995D",
+        background: "#D5D5D5",
         tech: "Ruby on Rails",
         id: "top",
         href: "Brent Ahrens | Working Not Working Website"
@@ -81,16 +81,6 @@ export const projects = [
         href: "Brent Ahrens | Elyse Walker Website"
     },
     {
-        title: "Motto Health",
-        img: motto,
-        description: "Built a website for a healthcare company specializing in Rheumatoid Arthritis with integrative, science-backed care—guided by a team of experts.",
-        link: "https://www.mottohealth.co",
-        linkTitle: "mottohealth.co",
-        background: "#ffffff",
-        tech: "Next JS | Storyblok | Firebase",
-        href: "Brent Ahrens | Motto Health Website"
-    },
-    {
         title: "Muir Hotel",
         img: muir,
         description: "Worked on a website for a Marriott Autograph Collection boutique hotel in Halifax, Nova Scotia.",
@@ -101,24 +91,14 @@ export const projects = [
         href: "Brent Ahrens | Muir Website"
     },
     {
-        title: "Checker Hall",
-        img: checkerHall,
-        description: "Built a website for a neighborhood bar and restaurant in Highland Park, Los Angeles.",
-        link: "https://checkerhall.com",
-        linkTitle: "checkerhall.com",
-        background: "#7B8F7F",
-        tech: "Webflow",
-        href: "Brent Ahrens | Science comes to life in San Diego Website"
-    },
-    {
-        title: "Science comes to life",
-        img: biocom,
-        description: "Built a website for Science comes to life here in San Diego.",
-        link: "https://sciencecomestolifesandiego.com",
-        linkTitle: "sciencecomestolife.com",
-        background: "#B8E4F3",
-        tech: "PHP | Javascipt | SCSS | Wordpress",
-        href: "Brent Ahrens | Science comes to life in San Diego Website"
+        title: "Thinkingbox (Kérastase)",
+        img: thinkingBox,
+        description: "Built a quiz website for the Kérastase Genesis collection.",
+        link: "https://www.kerastase-usa.com/",
+        linkTitle: "genesisquiz.com",
+        background: "#E1C0C5",
+        tech: "Vue js | SCSS",
+        href: "Brent Ahrens | Thinkingbox Website"
     },
     {
         title: "Piopiko",
@@ -131,14 +111,14 @@ export const projects = [
         href: "Brent Ahrens | Piopiko Website"
     },
     {
-        title: "9000 Wilshire",
-        img: nineThousand,
-        description: "Worked on a website for a building in Beverly Hills embodying the future of smart workspace design.",
-        link: "https://www.9000wilshire.com",
-        linkTitle: "9000wilshire.com",
-        background: "#83CAB3",
-        tech: "Squarespace | Javascript | CSS | HTML",
-        href: "Brent Ahrens | 9000 Wilshire Website"
+        title: "Checker Hall",
+        img: checkerHall,
+        description: "Built a website for a neighborhood bar and restaurant in Highland Park, Los Angeles.",
+        link: "https://www.checkerhall.com/",
+        linkTitle: "checkerhall.com",
+        background: "#7B8F7F",
+        tech: "Webflow",
+        href: "Brent Ahrens | Science comes to life in San Diego Website"
     },
     {
         title: "Kins",
@@ -151,33 +131,23 @@ export const projects = [
         href: "Brent Ahrens | Kins Website"
     },
     {
-        title: "Keen",
-        img: keen,
-        description: "Built a website for a healtcare company that helps seniors navigate medicare",
-        link: "https://www.choosekeen.com",
-        linkTitle: "choosekeen.com",
-        background: "#88A59A",
-        tech: "Webflow | Javascript | CSS",
-        href: "Brent Ahrens | Keen Website"
+        title: "9000 Wilshire",
+        img: nineThousand,
+        description: "Worked on a website for a building in Beverly Hills embodying the future of smart workspace design.",
+        link: "https://www.9000wilshire.com",
+        linkTitle: "9000wilshire.com",
+        background: "#83CAB3",
+        tech: "Squarespace | Javascript | CSS | HTML",
+        href: "Brent Ahrens | 9000 Wilshire Website"
     },
     {
-        title: "Thinkingbox (Kérastase)",
-        img: thinkingBox,
-        description: "Built a quiz website for the Kérastase Genesis collection.",
-        link: "https://www.kerastase-genesisquiz.com",
-        linkTitle: "genesisquiz.com",
-        background: "#E1C0C5",
-        tech: "Vue js | SCSS",
-        href: "Brent Ahrens | Thinkingbox Website"
-    },
-    {
-        title: "Ace Reader",
-        img: aceReader,
-        description: "Worked on a culture blog for all Ace Hotel properties.",
-        link: "http://reader.acehotel.com/",
-        linkTitle: "reader.acehotel.com",
-        background: "#A5BFE0",
-        tech: "Wordpress | CSS | PHP",
-        href: "Brent Ahrens | Ace Reader Website"
-    },
+        title: "Science comes to life",
+        img: biocom,
+        description: "Built a website for Science comes to life here in San Diego.",
+        link: "https://sciencecomestolifesandiego.com",
+        linkTitle: "sciencecomestolife.com",
+        background: "#B8E4F3",
+        tech: "PHP | Javascipt | SCSS | Wordpress",
+        href: "Brent Ahrens | Science comes to life in San Diego Website"
+    }
 ]

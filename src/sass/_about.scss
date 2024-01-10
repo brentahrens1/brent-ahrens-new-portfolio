@@ -94,6 +94,11 @@
     }
 }
 
+.contact-page-image {
+    @media (max-height: 725px) {
+        width: 38vw;
+    }
+}
 
 
 

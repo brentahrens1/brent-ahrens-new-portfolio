@@ -13,14 +13,14 @@ const About = () => {
             <div className="project">
                 <div className="project__inner">
                     <div className="project__content">
-                            <div className="project__image">
+                            <div className="project__image contact-page-image">
                                 <a href="mailto:brentholmesahrens.com" target="_blank" rel="noopener noreferrer">
                                 <img src={BrentAbout} alt="Brent Ahrens | Frontend Developer" />
                                 <h1 className="project__link-popup"><a href="mailto:brentholmesahrens.com" target="_blank" rel="noopener noreferrer">Contact Me</a></h1>
                                 </a>
                             </div>
                         <h4 className="project__tech"><a href={CV} target="_blank" rel="noopener noreferrer">Resume</a> | <a href="https://www.linkedin.com/in/brenthahrens/" target="_blank" rel="noopener noreferrer">Linkedin</a></h4>
-                        <p className="project__description">I’m a passionate, self-motivated frontend web developer who thrives in demanding and dynamic roles that leverage my affinity for cutting edge technology and collaboration.</p>
+                        <p className="project__description">I’m a passionate, self-motivated software engineer who thrives in demanding and dynamic roles that leverage my affinity for cutting edge technology and collaboration.</p>
                     </div>
                     <h1 className="project__link-mobile"><a href="mailto:brentholmesahrens.com" target="_blank" rel="noopener noreferrer">brentholmesahrens@gmail.com</a></h1>
                 </div>
@@ -31,15 +31,15 @@ const About = () => {
                     <ul>
                         <h3>React js</h3>
                         <h3>Next js</h3>
-                        <h3>Ruby on Rails</h3>
+                        <h3>Typescript</h3>
                         <h3>Javascript</h3>
                         <h3>SCSS</h3>
+                        <h3>Ruby on Rails</h3>
                         <h3>CSS3</h3>
                         <h3>HTML</h3>
                         <h3>Tailwind</h3>
                         <h3>Node js</h3>
                         <h3>Vue js</h3>
-                        <h3>Typescript</h3>
                     </ul>
                     <ul>
                         <h3>Wordpress</h3>
