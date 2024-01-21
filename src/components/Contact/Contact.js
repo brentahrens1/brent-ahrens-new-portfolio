@@ -84,10 +84,10 @@ const Contact = () => {
       {
         openForm ?
           formSubmitted ?
-            <>
+            <div className="thank-you-message">
               <h2>Thank you, I will be in touch soon.</h2>
               <h2>View projects I've worked on <a href="/index">here</a></h2>
-            </>
+            </div>
           :
           <div className="form-wrapper">
             <h1>Get in touch!</h1>
@@ -117,7 +117,7 @@ const Contact = () => {
             <div className="tier-grid-wrapper">
               <div className="tier-grid-wrapper__tier">
                 <h3>Basic</h3>
-                <p>This plan is for companies that are seeking a basic 2-3 page marketing website with an pre-designed template.</p>
+                <p>Basic 2-3 page marketing website with an pre-designed template.</p>
                 <ul>
                   <li>Template selected from Webflow, Squarespace, Wordpress or CMS platform.
                     <span>&#10003;</span>
@@ -136,7 +136,7 @@ const Contact = () => {
               </div>
               <div className="tier-grid-wrapper__tier">
                 <h3>Pro</h3>
-                <p>This plan is for companies that have a custom design and need custom developement to inplement the design and functionality.</p>
+                <p>Custom developement to implement your design.</p>
                 <ul>
                   <li>Design brought to life with pixel perfect web development.
                     <span>&#10003;</span>
@@ -155,9 +155,9 @@ const Contact = () => {
               </div>
               <div className="tier-grid-wrapper__tier">
                 <h3>Premium</h3>
-                <p>This is for companies looking for custom design and custom development built from the ground up to compliment your brand identity:</p>
+                <p>Custom design and custom development to compliment your brand identity:</p>
                 <ul>
-                  <li>Custom design that conveys the brand identity and company values.
+                  <li>Custom design that embodies the brand identity and company values.
                     <span>&#10003;</span>
                   </li>
                   <li>Custom development to bring the design to life
@@ -169,7 +169,7 @@ const Contact = () => {
                   <li>tutorials on how to update the content.
                     <span>&#10003;</span>
                   </li>
-                  <li>1 month of additional support for the website.
+                  <li>1 month of additional web support.
                     <span>&#10003;</span>
                   </li>
                   <li>SEO and Accessibility optimization
