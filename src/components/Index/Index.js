@@ -13,7 +13,7 @@ const Index = () => {
                             <div className="index__content">
                                 <h1 className="index__title">{project.title}</h1>
                                 <div className="index__image">
-                                    <img src={project.img} alt={project.title} />
+                                    <img className="index__image-img" src={project.img} alt={project.title} />
                                     <h1 className="index__link-popup"><a href={project.link} target="_blank" rel="noopener noreferrer">{project.linkTitle}</a></h1>
                                 </div>
                             </div>

@@ -1,7 +1,19 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, serverTimestamp } from 'firebase/firestore';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import image1 from '../../images/websites/gettingsmart.png';
+import image2 from '../../images/websites/wnw.png';
+import image3 from '../../images/websites/acehotel.png';
+import image4 from '../../images/websites/tempopay.png';
+import image5 from '../../images/websites/youngarts.png';
+import image6 from '../../images/websites/kins.png';
 
 import '../../sass/_contact-form.scss'
 
@@ -78,6 +90,7 @@ const Contact = () => {
             </>
           :
           <div className="form-wrapper">
+            <h1>Get in touch!</h1>
             <form ref={formRef} onSubmit={handleSubmit}>
               <div className="form-close" onClick={() => setOpenForm(false)}>
                 <div className="form-close__bar"></div>
@@ -100,45 +113,120 @@ const Contact = () => {
           </div>
         :
           <div className="tier-grid">
-            <h1>Pick a plan that best suits your companies needs.</h1>
+            <h1>Choose your plan</h1>
             <div className="tier-grid-wrapper">
               <div className="tier-grid-wrapper__tier">
                 <h3>Basic</h3>
-                <p>This plan is for companies that are seeking a basic 2-3 page marketing website with an already designed template.</p>
+                <p>This plan is for companies that are seeking a basic 2-3 page marketing website with an pre-designed template.</p>
                 <ul>
-                  <li>Template selected from Webflow, Squarespace, or Wordpress</li>
-                  <li>Website populated with all content including text and images</li>
-                  <li>SEO and Accessibility optimization</li>
-                  <li>Ensure responsiveness and connect to domain</li>
-                  <li>Please reach out for more details</li>
+                  <li>Template selected from Webflow, Squarespace, Wordpress or CMS platform.
+                    <span>&#10003;</span>
+                  </li>
+                  <li>Website populated with all content including text, images, and meta data
+                    <span>&#10003;</span>
+                  </li>
+                  <li>SEO and Accessibility optimization
+                    <span>&#10003;</span>
+                  </li>
+                  <li>Full responsiveness and cross browser compatability
+                    <span>&#10003;</span>
+                  </li>
                 </ul>
+                <h4 className="email-btn" onClick={() => setOpenForm(true)}>Email for more details</h4>
               </div>
               <div className="tier-grid-wrapper__tier">
                 <h3>Pro</h3>
-                <p>This plan is for companies that have a custom design and need custom developement to inplement the design and functionality</p>
+                <p>This plan is for companies that have a custom design and need custom developement to inplement the design and functionality.</p>
                 <ul>
-                  <li>Template selected from Webflow, Squarespace, or Wordpress</li>
-                  <li>Website populated with all content including text and images</li>
-                  <li>SEO and Accessibility optimization</li>
-                  <li>Ensure responsiveness and connect to domain</li>
-                  <li>Please reach out for more details</li>
+                  <li>Design brought to life with pixel perfect web development.
+                    <span>&#10003;</span>
+                  </li>
+                  <li>CMS to provide company with full control of content
+                    <span>&#10003;</span>
+                  </li>
+                  <li>SEO and Accessibility optimization
+                    <span>&#10003;</span>
+                  </li>
+                  <li>Full responsiveness and cross browser compatability
+                    <span>&#10003;</span>
+                  </li>
                 </ul>
+                <h4 className="email-btn" onClick={() => setOpenForm(true)}>Email for more details</h4>
               </div>
               <div className="tier-grid-wrapper__tier">
                 <h3>Premium</h3>
                 <p>This is for companies looking for custom design and custom development built from the ground up to compliment your brand identity:</p>
                 <ul>
-                  <li>Complete custom design to compliment your brand</li>
-                  <li>Custom codebase connected to a user friendly content management system</li>
-                  <li>SEO and Accessibility optimization</li>
-                  <li>Full responsiveness and cross browser compatability</li>
-                  <li>Please reach out for more details</li>
+                  <li>Custom design that conveys the brand identity and company values.
+                    <span>&#10003;</span>
+                  </li>
+                  <li>Custom development to bring the design to life
+                    <span>&#10003;</span>
+                  </li>
+                  <li>CMS to provide company with full control of content
+                    <span>&#10003;</span>
+                  </li>
+                  <li>tutorials on how to update the content.
+                    <span>&#10003;</span>
+                  </li>
+                  <li>1 month of additional support for the website.
+                    <span>&#10003;</span>
+                  </li>
+                  <li>SEO and Accessibility optimization
+                    <span>&#10003;</span>
+                  </li>
+                  <li>Full responsiveness and cross browser compatability
+                    <span>&#10003;</span>
+                  </li>
                 </ul>
+                <h4 className="email-btn" onClick={() => setOpenForm(true)}>Email for more details</h4>
               </div>
             </div>
             <div className="cta-container">
               <a href="/index">View My Projects</a>
               <button onClick={() => setOpenForm(true)}>Get in touch</button>
+            </div>
+            <div style={{marginTop: "110px"}}>
+              <h1 style={{marginBottom: "20px"}}>Featured Work</h1>
+              <Swiper
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                spaceBetween={0}
+                slidesPerView={1}
+                navigation
+                pagination={{ clickable: true }}
+                scrollbar={{ draggable: true }}
+                className="swiper-custom"
+              >
+                <SwiperSlide>
+                  <img src={image2} style={{height: "100%", width: "100%", objectFit: "cover"}} />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={image5} style={{height: "100%", width: "100%", objectFit: "cover"}} />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={image3} style={{height: "100%", width: "100%", objectFit: "cover"}} />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={image1} style={{height: "100%", width: "100%", objectFit: "cover"}} />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={image4} style={{height: "100%", width: "100%", objectFit: "cover"}} />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={image6} style={{height: "100%", width: "100%", objectFit: "cover"}} />
+                </SwiperSlide>
+              </Swiper>
+            </div>
+            <div style={{marginTop: "110px", marginBottom: "110px"}}>
+              <h1 style={{marginBottom: "20px"}}>Client list includes</h1>
+              <h4 style={{display: "inline"}}>Working Not Working / </h4>
+              <h4 style={{display: "inline"}}>Redesign Health / </h4>
+              <h4 style={{display: "inline"}}>Hugo & Marie (Elyse Walker) / </h4>
+              <h4 style={{display: "inline"}}>Thinkingbox (L'Oreal) / </h4>
+              <h4 style={{display: "inline"}}>Gates Creative / </h4>
+              <h4 style={{display: "inline"}}>Atelier Ace (Ace Hotel) / </h4>
+              <h4 style={{display: "inline"}}>Made by Grizzly / </h4>
+              <h4 style={{display: "inline"}}>Studio LaRocca</h4>
             </div>
           </div>
       }
