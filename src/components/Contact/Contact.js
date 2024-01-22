@@ -113,7 +113,8 @@ const Contact = () => {
           </div>
         :
           <div className="tier-grid">
-            <h1>Choose your plan</h1>
+            <h1>Brent Ahrens</h1>
+            <h1>Web Development and Design</h1>
             <div className="tier-grid-wrapper">
               <div className="tier-grid-wrapper__tier">
                 <h3>Basic</h3>
